@@ -1,0 +1,35 @@
+type VisitorCategory {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listVisitorCategory: [VisitorCategory]
+  getVisitorCategory(_id: ID!): VisitorCategory
+}
+
+type Mutation {
+  createVisitorCategory(input: VisitorCategoryInput): VisitorCategory
+  updateVisitorCategory(input: updateVisitorCategoryInput): VisitorCategory
+  deleteVisitorCategory(input: deleteVisitorCategoryInput): deleteVisitorCategory
+  deleteVisitorCategoryAll(input: deleteVisitorCategoryInput): deleteVisitorCategory
+}
+
+type deleteVisitorCategory {
+  _id: ID
+}
+
+input VisitorCategoryInput {
+  name: String!
+}
+
+input updateVisitorCategoryInput {
+  _id: ID!
+  name: String
+}
+
+input deleteVisitorCategoryInput {
+  _id: ID
+}

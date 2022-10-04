@@ -1,0 +1,33 @@
+type Galery {
+  _id: ID
+  name: String
+}
+
+input GaleryInput {
+  name: String
+}
+
+input updateGaleryInput {
+  _id: String
+  name: String
+}
+
+type Query {
+  listGalery: [Galery]
+  getGalery(_id: inputId): Galery
+}
+
+type Mutation {
+  createGalery(input: GaleryInput): Galery
+  updateGalery(input: updateGaleryInput): Galery
+  deleteGalery(input: inputId): outId
+  deleteGaleryAll: outId
+}
+
+type outId {
+  _id: ID
+}
+
+input inputId {
+  _id: ID
+}

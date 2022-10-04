@@ -1,0 +1,21 @@
+type ClientWa {
+  qr: String
+}
+
+type Query {
+  getClientState: Any
+}
+
+type Mutation {
+  loginClientWa: Boolean
+}
+
+type Subscription {
+  qrReloaded: ReloadResult
+  subGetState: Boolean
+}
+
+type ReloadResult {
+  qr: String
+  reload: Boolean
+}

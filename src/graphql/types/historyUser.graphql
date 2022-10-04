@@ -1,0 +1,53 @@
+type HistoryUser {
+  _id: ID
+  name: String #
+  lastname: String
+  email: String
+  privilegeID: Privilege
+  active: Boolean
+  token: String
+  masterLocation: MasterLocation
+  location: Location
+  admin: User
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listHistoryUser: [HistoryUser]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getHistoryUser(_id: String): HistoryUser
+}
+
+type Mutation {
+  createHistoryUser(input: HistoryUserInput): HistoryUser
+  deleteHistoryUser(input: deleteHistoryUserInput): deleteHistoryUser
+  deleteHistoryUserAll(input: deleteHistoryUserInput): deleteHistoryUser
+}
+
+type deleteHistoryUser {
+  _id: ID
+}
+
+input HistoryUserInput {
+  name: String
+  lastname: String!
+  email: String!
+  password: String
+  active: Boolean
+  lang: String
+  privilegeID: String
+  masterLocation: String
+  location: String
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+}
+
+input deleteHistoryUserInput {
+  _id: ID
+}

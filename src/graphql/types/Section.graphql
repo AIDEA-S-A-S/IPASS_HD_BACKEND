@@ -1,0 +1,35 @@
+type Section {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listSection: [Section] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getSection(_id: String): Section
+}
+
+type Mutation {
+  createSection(input: sectionInput): Section
+  updateSection(input: updateSectionInput): Section
+  deleteSection(input: deleteSectionInput): deleteSection
+  deleteSectionAll(input: deleteSectionInput) :deleteSection
+}
+
+type deleteSection {
+  _id: ID
+}
+
+input sectionInput {
+    name: String !
+}
+
+input updateSectionInput {
+  _id: ID!
+  name: String
+}
+
+input deleteSectionInput {
+  _id: ID
+}

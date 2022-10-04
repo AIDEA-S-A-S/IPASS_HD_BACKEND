@@ -1,0 +1,47 @@
+type Apps {
+  _id: ID
+  name: String
+  url: String
+  abbreviation: String
+  tokenKey: String
+  clientID: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listApps: [Apps] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getApps(_id: String): Apps
+}
+
+type Mutation {
+  createApps(input: AppsInput): Apps
+  updateApps(input: updateAppsInput): Apps
+  deleteApps(input: deleteAppsInput): deleteApps
+  deleteAppsAll(input: deleteAppsInput): deleteApps
+}
+
+type deleteApps {
+  _id: ID
+}
+
+input AppsInput {
+  name: String
+  abbreviation: String
+  url: String
+  clientID: String
+  tokenKey: String
+}
+
+input updateAppsInput {
+  _id: ID!
+  name: String
+  abbreviation: String
+  url: String
+  clientID: String
+  tokenKey: String
+}
+
+input deleteAppsInput {
+  _id: ID
+}

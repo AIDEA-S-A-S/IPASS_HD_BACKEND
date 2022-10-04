@@ -1,0 +1,88 @@
+type EventExpress {
+  _id: ID
+  name: String
+  host: User
+  start: String
+  end: String
+  location: Location
+  state: String
+  createdAt: DateTime
+  updatedAt: DateTime
+  hourIn: String
+  hourOut: String
+  contact: Contact
+  motivo: String
+  authorizedBy: User
+  invitados: [Contact]
+  open: Boolean
+}
+
+type Query {
+  listEventExpress: [EventExpress]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getEventExpress(_id: String): EventExpress
+}
+
+type Mutation {
+  createEventExpress(input: EventExpressInput): EventExpress
+  updateEventExpress(input: updateEventExpressInput): EventExpress
+  deleteEventExpress(input: deleteEventExpressInput): deleteEventExpress
+  deleteEventExpressAll(input: deleteEventExpressInput): deleteEventExpress
+  acceptEventExpress(_id: String): Boolean
+  denyEventExpress(_id: String): Boolean
+  sendQREventExpress(_id: String): Boolean
+  sendDataVerificationEventExress(input: verifiedDataInput, ID: String): EventExpress
+  sendDataVerificationPDFEventExpress(input: verifiedDataInputPDF, ID: String): EventExpress
+  manualCheckUpdate(input: manualCheckInput): manualCheckResult
+}
+
+type Subscription {
+  subListEventExpress: Boolean
+}
+
+type deleteEventExpress {
+  _id: ID
+}
+
+input EventExpressInput {
+  name: String
+  host: String
+  start: String
+  end: String
+  location: String
+  state: String
+  motivo: String
+  invitados: [String]
+  contact: String
+  open: Boolean
+}
+
+input updateEventExpressInput {
+  _id: ID!
+  name: String
+  host: String
+  start: String
+  end: String
+  location: String
+  state: String
+  contact: String
+  motivo: String
+  invitados: [String]
+  open: Boolean
+  hourIn: String
+  hourOut: String
+}
+
+input deleteEventExpressInput {
+  _id: ID
+}
+
+input manualCheckInput {
+  eventExpress: String
+  type: String
+  hour: String
+}
+
+type manualCheckResult {
+  ok: Boolean
+}

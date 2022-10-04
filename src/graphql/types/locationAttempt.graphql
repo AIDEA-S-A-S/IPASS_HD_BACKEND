@@ -1,0 +1,60 @@
+type LocationAttempt {
+  _id: ID
+  authenticated: Boolean
+  worker: Worker
+  user: User
+  attempts: Int
+  contact: Contact
+  location: Location
+  type: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listLocationAttempt: [LocationAttempt]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocationAttempt(_id: String): LocationAttempt
+  listAttemptsToday: [LocationAttempt]
+  listAttemptsYesterday: [LocationAttempt]
+  listAttemptsMonthInternal: [LocationAttempt]
+  listAttemptsAllInternal: [LocationAttempt]
+  listAttemptsMonthExternal: [LocationAttempt]
+  listAttemptsAllExternal: [LocationAttempt]
+}
+
+type Mutation {
+  createLocationAttempt(input: LocationAttemptInput): LocationAttempt
+  updateLocationAttempt(input: updateLocationAttemptInput): LocationAttempt
+  deleteLocationAttempt(input: deleteLocationAttemptInput): deleteLocationAttempt
+  deleteLocationAttemptAll(input: deleteLocationAttemptInput): deleteLocationAttempt
+}
+
+type deleteLocationAttempt {
+  _id: ID
+}
+
+input LocationAttemptInput {
+  authenticated: Boolean
+  attempts: Int
+  worker: String
+  user: String
+  contact: String
+  location: String
+  type: String
+}
+
+input updateLocationAttemptInput {
+  _id: ID!
+  authenticated: Boolean
+  attempts: Int
+  worker: String
+  user: String
+  contact: String
+  location: String
+  type: String
+}
+
+input deleteLocationAttemptInput {
+  _id: ID
+}

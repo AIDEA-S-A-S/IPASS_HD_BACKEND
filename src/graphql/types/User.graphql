@@ -1,0 +1,157 @@
+type Response {
+  response: String
+}
+type User {
+  _id: ID
+  name: String
+  photo: fileType
+  lastname: String
+  email: String
+  codeWorker: String
+  privilegeID: Privilege
+  active: Boolean
+  country: String
+  token: String
+  admin: User
+  verifyLogin: Boolean
+  createdAt: DateTime
+  tokenExpo: String
+  updatedAt: DateTime
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [GroupWorker]
+  nativeLocation: [Location]
+  canUseAuthenticator: Boolean
+  timeZone: [TimeZone]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  banFinish: String
+  apps: [Apps]
+}
+
+type UserPaginated {
+  docs: [User]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type Query {
+  listUser(page: Int, limit: Int, filters: Any): UserPaginated
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUser(_id: String): User
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUsersAdmin: [User]
+  listAllUsers: [User] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUserHost: [User]
+  verifyKeyUser: Any
+  countUserWorker: Float
+  getUsersSecurity: [User]
+}
+
+type Mutation {
+  createUser(input: userInput): Boolean
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  updateUser(input: updateUserInput): Boolean
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  deleteUser(input: deleteUserInput): Boolean
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  addKeyUser(key: String): Boolean
+  setPushToken(_id: String, token: String, type: String): Boolean
+  resetToken(_id: String, type: String): Boolean
+  deleteUserAll: Boolean
+}
+
+type Subscription {
+  subUser: [User]
+}
+
+input userInput {
+  name: String
+  lastname: String
+  email: String
+  codeWorker: String
+  password: String
+  active: Boolean
+  country: String
+  tokenExpo: String
+  photo: Upload
+  lang: String
+  privilegeID: ID
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  apps: [String]
+}
+
+input updateUserInput {
+  _id: ID
+  name: String
+  photo: Upload
+  lastname: String
+  email: String
+  privilegeID: ID
+  password: String
+  country: String
+  active: Boolean
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  tokenExpo: String
+  codeWorker: String
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+input deleteUserInput {
+  _id: ID
+}

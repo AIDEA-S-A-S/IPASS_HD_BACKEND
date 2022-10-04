@@ -1,0 +1,7 @@
+scalar DateTime
+scalar Any
+scalar Upload
+type fileType {
+  filename: String
+  key: String
+}

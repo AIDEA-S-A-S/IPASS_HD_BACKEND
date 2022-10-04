@@ -1,0 +1,12 @@
+{
+  "server": { "port": 4002, "portReddis": 6379 },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "renap",
+    "username": "CxBxFbTe_N*u",
+    "password": "H8zMV-_vuvPx"
+  },
+  "security": { "secretKey": "Ej'zvna00-=6Xtz0mh¿_O'Bwvf¿_NL", "expiresIn": "1d" },
+  "initialConfig": { "alreadyLogin": false }
+}

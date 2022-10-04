@@ -1,0 +1,68 @@
+type Authenticator {
+  _id: ID
+  app: Apps
+  code: String
+  status: String
+  worker: Worker
+  user: User
+  used: Boolean
+  entries: [entriesAuthenticator]
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type AuthenticatorPaginated {
+  docs: [Authenticator]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type entriesAuthenticator {
+  hourIn: String
+}
+
+type Query {
+  listAuthenticator(page: Int, limit: Int, filters: Any): AuthenticatorPaginated
+    @rateLimit(window: "10s", max: 20, message: "You are doing that too often.")
+  getAuthenticator(_id: String): Authenticator
+}
+
+type Mutation {
+  createAuthenticator(input: AuthenticatorInput): Authenticator
+  generateExcelAuthenticator(page: Int, limit: Int, filters: Any): String
+  generatePDFAuthenticator(page: Int, limit: Int, filters: Any): String
+  updateAuthenticator(input: updateAuthenticatorInput): Authenticator
+  deleteAuthenticator(input: deleteAuthenticatorInput): deleteAuthenticator
+  deleteAuthenticatorAll(input: deleteAuthenticatorInput): deleteAuthenticator
+}
+
+type deleteAuthenticator {
+  _id: ID
+}
+
+input AuthenticatorInput {
+  app: ID
+  code: String
+  status: String
+  user: ID
+}
+
+input updateAuthenticatorInput {
+  _id: ID!
+  app: ID
+  code: String
+  status: String
+  user: ID
+}
+
+input deleteAuthenticatorInput {
+  _id: ID
+}

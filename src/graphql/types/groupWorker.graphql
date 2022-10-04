@@ -1,0 +1,44 @@
+type GroupWorker {
+  _id: ID
+  name: String
+  location: [Location]
+  exists: Boolean
+  abbreviation: String
+}
+
+type Query {
+  listGroupWorker: [GroupWorker]
+  listGroupWorkerIfExist: [GroupWorker]
+  getGroupWorker(_id: ID!): GroupWorker
+}
+
+type Mutation {
+  createGroupWorker(input: GroupWorkerInput): Boolean
+  updateGroupWorker(input: updateGroupWorkerInput): Boolean
+  deleteGroupWorker(input: deleteGroupWorkerInput): Boolean
+  deleteGroupWorkerAll(input: deleteGroupWorkerInput): Boolean
+}
+
+type DeletedGroupWorker {
+  _id: ID
+}
+
+input deleteGroupWorkerInput {
+  _id: ID
+  whoDeleted: ID
+}
+
+input GroupWorkerInput {
+  name: String
+  location: [ID]
+  exists: Boolean
+  abbreviation: String
+}
+
+input updateGroupWorkerInput {
+  _id: ID!
+  name: String
+  location: [ID]
+  exists: Boolean
+  abbreviation: String
+}

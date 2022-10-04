@@ -1,0 +1,150 @@
+type Worker {
+  _id: ID
+  name: String
+  photo: fileType
+  lastname: String
+  email: String
+  verifyLogin: Boolean
+  active: Boolean
+  codeWorker: String
+  phone: String
+  tokenExpo: String
+  document: String
+  typeDocument: String
+  QR: String
+  temporal_Qr: temporal_Qr
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  group: [GroupWorker]
+  nativeLocation: [Location]
+  canUseAuthenticator: Boolean
+  banFinish: DateTime
+  timeZone: [TimeZone]
+  code: Boolean
+  apps: [Apps]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type temporal_Qr {
+  QR: String
+  worker: String
+  timeEnd: String
+  used: Boolean
+  valid: Boolean
+}
+
+type Query {
+  listWorker(page: Int, limit: Int, filters: Any): WorkerPaginated
+  getWorker(_id: String): Worker
+}
+
+type WorkerPaginated {
+  docs: [Worker]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type Mutation {
+  createWorker(input: WorkerInput): Boolean
+  signUpWorker(input: confirmSignUpInput): Token
+  loginWorker(input: loginInput): Response
+  loginAppWorker(input: loginInput): Response
+  generateNewTemporalQR(_id: ID, location: ID): temporalQr
+  generateNewPermanentQR(_id: ID): Boolean
+  deleteTemporalQR(_id: ID): Boolean
+  createMassiveWorker(input: [WorkerInput]): [responseMassive]
+  updateWorker(input: updateWorkerInput): Boolean
+  deleteWorker(input: deleteWorkerInput): Boolean
+  deleteWorkerAll: Boolean
+}
+
+type temporalQr {
+  QR: String
+  timeEnd: String
+  used: Boolean
+  valid: Boolean
+  location: Location
+}
+
+input deleteWorkerInput {
+  _id: ID
+}
+
+type responseMassive {
+  email: String
+  success: Boolean
+  reason: Any
+}
+
+input WorkerInput {
+  key: Int
+  photo: Upload
+  name: String
+  lastname: String
+  password: String
+  email: String
+  verifyLogin: Boolean
+  codeWorker: String
+  active: Boolean
+  phone: String
+  document: String
+  typeDocument: String
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  nativeLocation: [ID]
+  rol: String
+  code: Boolean
+  banFinish: String
+  group: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  tokenExpo: String
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+input updateWorkerInput {
+  _id: ID!
+  name: String
+  photo: Upload
+  password: String
+  lastname: String
+  codeWorker: String
+  email: String
+  verifyLogin: Boolean
+  active: Boolean
+  phone: String
+  document: String
+  typeDocument: String
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  rol: String
+  code: Boolean
+  banFinish: String
+  nativeLocation: [String]
+  group: [String]
+  canUseAuthenticator: Boolean
+  tokenExpo: String
+  timeZone: [String]
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}

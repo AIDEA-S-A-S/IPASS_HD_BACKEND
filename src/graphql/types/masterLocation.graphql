@@ -1,0 +1,60 @@
+type MasterLocation {
+  _id: ID
+  name: String
+  address: String
+  location: [Location]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type Query {
+  listMasterLocation: [MasterLocation]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listMasterLocationActive: [MasterLocation]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getMasterLocation(_id: String): MasterLocation
+}
+
+type Mutation {
+  createDummyData(count: Int): Boolean
+  createMasterLocation(input: MasterLocationInput): MasterLocation
+  updateMasterLocation(input: updateMasterLocationInput): MasterLocation
+  deleteMasterLocation(input: deleteMasterLocationInput): deleteMasterLocation
+  deleteMasterLocationChangeStatus(input: deleteMasterLocationInputStatus): deleteMasterLocation
+  deleteMasterLocationAll(input: deleteMasterLocationInput): deleteMasterLocation
+}
+
+type deleteMasterLocation {
+  _id: ID
+}
+
+input MasterLocationInput {
+  name: String!
+  address: String!
+  location: [String]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+}
+
+input updateMasterLocationInput {
+  _id: ID!
+  name: String
+  address: String
+  location: [String]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+}
+
+input deleteMasterLocationInput {
+  _id: ID
+}
+
+input deleteMasterLocationInputStatus {
+  _id: ID
+  whoDeleted: ID
+}

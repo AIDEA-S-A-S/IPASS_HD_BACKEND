@@ -1,0 +1,17 @@
+type Mutation {
+  uploadPDF(input: GetPhoto): readedPDF
+}
+
+type readedPDF {
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input GetPhoto {
+  photo: Upload
+}

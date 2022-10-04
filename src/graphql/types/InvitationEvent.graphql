@@ -1,0 +1,68 @@
+type InvitationEvent {
+  _id: ID
+  event: Event
+  contact: Contact
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  isIn: Boolean
+  hourIn: String
+  type: String
+  host: User
+  routes: Any
+  location: Location
+  expiration: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+# type route {
+#   isIn: Boolean
+#   location: Location
+#   parent: Any
+# }
+
+type Query {
+  listInvitationEvent: [InvitationEvent]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getInvitationEvent(_id: String): InvitationEvent
+  listInvitationEventByEvent(_id: String): [InvitationEvent]
+}
+
+type Mutation {
+  createInvitationEvent(input: InvitationEventInput): InvitationEvent
+  generateHostQR(_id: String, location: String): temporalQr
+  updateInvitationEvent(input: updateInvitationEventInput): InvitationEvent
+  deleteInvitationEvent(input: deleteInvitationEventInput): deleteInvitationEvent
+  deleteInvitationEventAll(input: deleteInvitationEventInput): deleteInvitationEvent
+}
+
+type deleteInvitationEvent {
+  _id: ID
+}
+
+input InvitationEventInput {
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input updateInvitationEventInput {
+  _id: ID!
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input deleteInvitationEventInput {
+  _id: ID
+}

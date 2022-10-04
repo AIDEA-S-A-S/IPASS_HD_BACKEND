@@ -1,0 +1,47 @@
+type TimeZone {
+  _id: ID
+  name: String
+  start: String
+  end: String
+  days: [String]
+  abbreviation: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listTimeZone: [TimeZone]
+  getTimeZone(_id: ID!): TimeZone
+}
+
+type Mutation {
+  createTimeZone(input: TimeZoneInput): TimeZone
+  updateTimeZone(input: updateTimeZoneInput): TimeZone
+  deleteTimeZone(input: deleteTimeZoneInput): deleteTimeZone
+  deleteTimeZoneAll(input: deleteTimeZoneInput): deleteTimeZone
+}
+
+type deleteTimeZone {
+  _id: ID
+}
+
+input TimeZoneInput {
+  name: String!
+  start: String
+  end: String
+  abbreviation: String
+  days: [String]
+}
+
+input updateTimeZoneInput {
+  _id: ID!
+  name: String
+  start: String
+  abbreviation: String
+  end: String
+  days: [String]
+}
+
+input deleteTimeZoneInput {
+  _id: ID
+}

@@ -1,0 +1,82 @@
+type Event {
+  _id: ID
+  name: String
+  start: DateTime
+  host: User
+  end: DateTime
+  location: Location
+  beforeStart: Int
+  onlyAuthUser: Boolean
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  invitations: [InvitationEvent]
+  whoDeleted: User
+  open: Boolean
+}
+
+type Query {
+  listEvent: [Event] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listEventHistory: [Event]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listEventActive: [Event]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listAllEventsActive: [Event]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getEvent(_id: String): Event
+  listEventByLocation(_id: String): [Event]
+  listEventsYesterday: [Event]
+  listEventsToday: [Event]
+  listEventsTomorrow: [Event]
+}
+
+type Mutation {
+  createEvent(input: EventInput): Event
+  updateEvent(input: updateEventInput): Event
+  deleteEvent(input: deleteEventInput): deleteEvent
+  deleteEventChangeStatus(input: deleteEventInputStatus): deleteEvent
+  deleteEventAll(input: deleteEventInput): deleteEvent
+  eventacceptReject(input: AcceptRejectEventInput): Event
+}
+
+input AcceptRejectEventInput {
+  confirm: Boolean
+  contact: String
+  Event: String
+}
+
+type deleteEvent {
+  _id: ID
+}
+
+input EventInput {
+  name: String
+  start: DateTime
+  end: DateTime
+  location: String
+  beforeStart: Int
+  onlyAuthUser: Boolean
+  guests: [ID]
+  open: Boolean
+}
+
+input updateEventInput {
+  _id: ID!
+  name: String
+  start: DateTime
+  end: DateTime
+  location: String
+  onlyAuthUser: Boolean
+  beforeStart: Int
+  open: Boolean
+}
+
+input deleteEventInputStatus {
+  _id: ID
+  whoDeleted: ID
+}
+
+input deleteEventInput {
+  _id: ID
+}

@@ -1,0 +1,35 @@
+type VisitorPlace {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listVisitorPlace: [VisitorPlace]
+  getVisitorPlace(_id: ID!): VisitorPlace
+}
+
+type Mutation {
+  createVisitorPlace(input: VisitorPlaceInput): VisitorPlace
+  updateVisitorPlace(input: updateVisitorPlaceInput): VisitorPlace
+  deleteVisitorPlace(input: deleteVisitorPlaceInput): deleteVisitorPlace
+  deleteVisitorPlaceAll(input: deleteVisitorPlaceInput): deleteVisitorPlace
+}
+
+type deleteVisitorPlace {
+  _id: ID
+}
+
+input VisitorPlaceInput {
+  name: String!
+}
+
+input updateVisitorPlaceInput {
+  _id: ID!
+  name: String
+}
+
+input deleteVisitorPlaceInput {
+  _id: ID
+}

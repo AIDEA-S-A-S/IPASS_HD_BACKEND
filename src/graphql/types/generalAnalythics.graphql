@@ -1,0 +1,57 @@
+type LocationAttemptAnalythics {
+  dataCumpIncp: [DataCumpIncp]
+  dataEvents: [DataEvents]
+}
+
+type DataEvents {
+  month: String
+  Eventos: Float
+  EventosExpress: Float
+}
+
+type DataCumpIncp {
+  month: String
+  CEXT: Float
+  CINT: Float
+  IINT: Float
+  IEXT: Float
+}
+
+type AttemptsByLocation {
+  location: String
+  CUMP: Float
+  INCP: Float
+  EVEP: Float
+  EVEE: Float
+}
+
+type General {
+  eventos: GeneralEvent
+  eventosExpress: GeneralEventsEspress
+  incumplimientos: GeneralIncumplimientos
+  incumplimientoCheckout: Any
+}
+
+type GeneralEvent {
+  today: Float
+  yesterday: Float
+  tomorrow: Float
+}
+type GeneralEventsEspress {
+  today: Float
+  yesterday: Float
+  tomorrow: Float
+}
+
+type GeneralIncumplimientos {
+  today: Float
+  yesterday: Float
+  si: Float
+}
+
+type Query {
+  analythicsAttemptsApp: LocationAttemptAnalythics
+  generalAnalythics: General
+  analythicsAttempts: LocationAttemptAnalythics
+  analythicsAttemptsByLocation(month: Int): [AttemptsByLocation]
+}

@@ -1,0 +1,42 @@
+type VisitorBrand {
+  _id: ID
+  name: String
+  photo: fileType
+  category: VisitorCategory
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listVisitorBrand: [VisitorBrand]
+  getVisitorBrand(_id: ID): VisitorBrand
+  getVisitorBrandByCategory(categoryID: String): [VisitorBrand]
+}
+
+type Mutation {
+  createVisitorBrand(input: VisitorBrandInput): VisitorBrand
+  updateVisitorBrand(input: updateVisitorBrandInput): VisitorBrand
+  deleteVisitorBrand(input: deleteVisitorBrandInput): deleteVisitorBrand
+  deleteVisitorBrandAll(input: deleteVisitorBrandInput): deleteVisitorBrand
+}
+
+type deleteVisitorBrand {
+  _id: ID
+}
+
+input VisitorBrandInput {
+  name: String!
+  photo: Upload
+  category: ID
+}
+
+input updateVisitorBrandInput {
+  _id: ID!
+  name: String
+  photo: Upload
+  category: ID
+}
+
+input deleteVisitorBrandInput {
+  _id: ID
+}

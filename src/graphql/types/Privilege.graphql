@@ -1,0 +1,55 @@
+type Permissions {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+type Privilege {
+  _id: ID!
+  name: String!
+  permissions: [Permissions]
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type Query {
+  listPrivilege: [Privilege] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getPrivilege(_id: String): Privilege
+}
+
+type Mutation {
+  createPrivilege(input: privilegeInput): Privilege
+  updatePrivilege(input: updatePrivilegeInput): Privilege
+  deletePrivilege(input: deletePrivilegeInput): Privilege
+  deletePrivilegeAll(input: deletePrivilegeInput) :Privilege
+}
+
+type deletePrivilege {
+  _id: ID
+}
+
+input privilegeInput {
+  name: String!
+  permissions: [permissionsInput]
+}
+
+input updatePrivilegeInput {
+  _id: ID!
+   name: String!
+   permissions: [permissionsInput]
+}
+
+input permissionsInput {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+
+
+
+input deletePrivilegeInput {
+  _id: ID
+}

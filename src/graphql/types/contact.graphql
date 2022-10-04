@@ -1,0 +1,156 @@
+type Contact {
+  _id: ID
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
+  nickname: String
+  host: User
+  verified: Boolean
+  typeVerified: String
+  verifiedData: verifiedData
+  verifiedDataPDF: verifiedDataPDF
+  banFinish: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+  empresa: String
+  indicativo: String
+  DPI: String
+  verificationRegistro: Boolean
+}
+
+type verifiedData {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  birthDate: String
+  expirationDate: String
+  sex: String
+  lastName: String
+  firstName: String
+  nationality: String
+  documentNumber: String
+  correctionName: String
+  correctionLastname: String
+  correctionNumber: String
+}
+type verifiedDataPDF {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+type Query {
+  listContact: [Contact]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getContact(_id: String): Contact
+  getEventContact(_id: ID): [InvitationEvent]
+  listContactWithOutVerify: [Contact]
+}
+
+type Mutation {
+  sendVerification(contactID: ID): Contact
+  createContact(input: ContactInput): Contact
+  updateContact(input: updateContactInput): Contact
+  deleteContact(input: deleteContactInput): deleteContact
+  deleteContactAll(input: deleteContactInput): deleteContact
+  sendDataVerification(input: verifiedDataInput, ID: String): Contact
+  sendDataVerificationPass(input: verifiedDataInput, ID: String): Contact
+  sendDataVerificationPDF(input: verifiedDataInputPDF, ID: String): Contact
+  verifyContact(contactID: ID): Contact
+  uploadMRZ(input: GetPhoto): readedMRZ
+  verifyPhoto(input: GetPhoto): Boolean
+}
+
+type Subscription {
+  subListContact(hostID: ID): Boolean
+}
+
+input GetPhoto {
+  photo: Upload
+}
+
+type readedMRZ {
+  birthDate: String
+  expirationDate: String
+  sex: String
+  firstName: String
+  lastName: String
+  nationality: String
+  documentNumber: String
+}
+type deleteContact {
+  _id: ID
+}
+
+input verifiedDataInput {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  birthDate: String
+  expirationDate: String
+  sex: String
+  lastName: String
+  firstName: String
+  nationality: String
+  documentNumber: String
+  correctionName: String
+  correctionLastname: String
+  correctionNumber: String
+}
+
+input verifiedDataInputPDF {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input ContactInput {
+  firstName: String
+  lastName: String
+  email: String
+  indicativo: String
+  phone: String
+  askVerification: Boolean
+  nickname: String
+  verified: Boolean
+  verifiedData: verifiedDataInput
+  banFinish: String
+  empresa: String
+  verificationRegistro: Boolean
+  DPI: String
+}
+
+input updateContactInput {
+  _id: ID!
+  indicativo: String
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
+  askVerification: Boolean
+  nickname: String
+  verified: Boolean
+  verifiedData: verifiedDataInput
+  banFinish: String
+  empresa: String
+  DPI: String
+  verificationRegistro: Boolean
+}
+
+input deleteContactInput {
+  _id: ID
+}

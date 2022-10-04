@@ -1,0 +1,127 @@
+type LocationEntries {
+  _id: String
+  contact: Contact
+  location: Location
+  event: Event
+  hourIn: String
+  hourOut: String
+  host: User
+  type: String
+  worker: Worker
+  user: User
+  isEntry: Boolean
+  visitantData: VisitantInfo
+  eventExpress: EventExpress
+  typeQr: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+type LocationEntriesPaginated {
+  docs: [LocationEntries]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+type Query {
+  listLocationEntries: [LocationEntries]
+  listLocationEntriesPaginated(page: Int, limit: Int, filters: Any): LocationEntriesPaginated
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocationEntriesByLocation(locationID: String): [LocationEntries]
+  filterLocationEntries(filter: filter): [LocationEntries]
+  filterLocationEntriesSecurity(filter: filterSecurity): [LocationEntries]
+  generateReportLocationEntries(page: Int, limit: Int, filters: Any): String
+  generateReportLocationEntriesSecurity(filter: filterSecurity): String
+  listLocationEntriesExternal: [LocationEntries]
+}
+type Mutation {
+  generatePDFLocationEntries(page: Int, limit: Int, filters: Any): String
+  newEntry(input: LocationEntriesInput): LocationEntries
+  cleanNoEvent: Boolean
+  deleteLocationEntry(_id: String): Boolean
+  deleteLocationEntriesAll: Boolean
+}
+
+type Mutation {
+  deleteLocationEntriesAll: Boolean
+}
+
+type VisitantInfo {
+  readedMRZ: readedMRZ
+  readedPDF: readedPDF
+  brand: VisitorBrand
+  category: VisitorCategory
+  direction: String
+  place: VisitorPlace
+}
+
+input VisitantInfoInput {
+  readedMRZ: readedMRZInput
+  readedPDF: readedPDFInput
+  brand: String
+  category: String
+  direction: String
+  place: String
+}
+
+input readedMRZInput {
+  birthDate: String
+  expirationDate: String
+  sex: String
+  firstName: String
+  lastName: String
+  nationality: String
+  documentNumber: String
+}
+
+input readedPDFInput {
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input LocationEntriesInput {
+  contact: String
+  location: String!
+  event: String
+  hourIn: String
+  hourOut: String
+  host: String
+  type: String
+  visitantData: VisitantInfoInput
+  worker: String
+}
+
+input filter {
+  start: String
+  end: String
+  location: String
+  host: String
+  verified: Boolean
+  startHour: String
+  endHour: String
+}
+
+input filterSecurity {
+  location: String
+  start: String
+  end: String
+  name: String
+  lastname: String
+  type: String
+  category: String
+  brand: String
+  destiny: String
+  host: String
+  event: String
+}

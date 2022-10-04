@@ -1,0 +1,1768 @@
+directive @rateLimit(max: Int, window: String, message: String, identityArgs: [String], arrayLengthField: String) on FIELD_DEFINITION
+
+type InvitationEvent {
+  _id: ID
+  event: Event
+  contact: Contact
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  isIn: Boolean
+  hourIn: String
+  type: String
+  host: User
+  routes: Any
+  location: Location
+  expiration: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Query {
+  listInvitationEvent: [InvitationEvent] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getInvitationEvent(_id: String): InvitationEvent
+  listInvitationEventByEvent(_id: String): [InvitationEvent]
+  listPrivilege: [Privilege] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getPrivilege(_id: String): Privilege
+  listSection: [Section] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getSection(_id: String): Section
+  listUser(page: Int, limit: Int, filters: Any): UserPaginated @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUser(_id: String): User @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUsersAdmin: [User]
+  listAllUsers: [User] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUserHost: [User]
+  verifyKeyUser: Any
+  countUserWorker: Float
+  getUsersSecurity: [User]
+  listApps: [Apps] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getApps(_id: String): Apps
+  listAuthenticator(page: Int, limit: Int, filters: Any): AuthenticatorPaginated @rateLimit(window: "10s", max: 20, message: "You are doing that too often.")
+  getAuthenticator(_id: String): Authenticator
+  listBreach: [Breach]
+  listBreachLast2Days: [Breach]
+  listBreachLast2DaysApp(page: Int, limit: Int, filters: Any): BreachPaginated
+  generaReportBreach(page: Int, limit: Int, filters: Any): String
+  generaReportBreachPDF(page: Int, limit: Int, filters: Any): String
+  getBreach(_id: ID!): Breach
+  getClientState: Any
+  listContact: [Contact] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getContact(_id: String): Contact
+  getEventContact(_id: ID): [InvitationEvent]
+  listContactWithOutVerify: [Contact]
+  listDevice: [Device]
+  listDeviceIfExists: [Device]
+  listAvailableDevices: [Device]
+  getDevice(_id: ID!): Device
+  getLocationBySerialNumber(serialNumber: String): Device
+  listEvent: [Event] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listEventHistory: [Event] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listEventActive: [Event] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listAllEventsActive: [Event] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getEvent(_id: String): Event
+  listEventByLocation(_id: String): [Event]
+  listEventsYesterday: [Event]
+  listEventsToday: [Event]
+  listEventsTomorrow: [Event]
+  listEventExpress: [EventExpress] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getEventExpress(_id: String): EventExpress
+  listGalery: [Galery]
+  getGalery(_id: inputId): Galery
+  analythicsAttemptsApp: LocationAttemptAnalythics
+  generalAnalythics: General
+  analythicsAttempts: LocationAttemptAnalythics
+  analythicsAttemptsByLocation(month: Int): [AttemptsByLocation]
+  listGroupWorker: [GroupWorker]
+  listGroupWorkerIfExist: [GroupWorker]
+  getGroupWorker(_id: ID!): GroupWorker
+  listHistoryUser: [HistoryUser] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getHistoryUser(_id: String): HistoryUser
+  listLocation: [Location] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listLocationActive: [Location] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocation(_id: String): Location
+  getLocationSecurity: [Location]
+  getLocationsByMaster(_id: String): [Location]
+  getAllToSecurity(locationID: String): Any
+  generateExcelSecurity(locationID: String): Any
+  generatePDFSecurity(locationID: String): Any
+  listLocationAttempt: [LocationAttempt] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocationAttempt(_id: String): LocationAttempt
+  listAttemptsToday: [LocationAttempt]
+  listAttemptsYesterday: [LocationAttempt]
+  listAttemptsMonthInternal: [LocationAttempt]
+  listAttemptsAllInternal: [LocationAttempt]
+  listAttemptsMonthExternal: [LocationAttempt]
+  listAttemptsAllExternal: [LocationAttempt]
+  listLocationEntries: [LocationEntries]
+  listLocationEntriesPaginated(page: Int, limit: Int, filters: Any): LocationEntriesPaginated @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocationEntriesByLocation(locationID: String): [LocationEntries]
+  filterLocationEntries(filter: filter): [LocationEntries]
+  filterLocationEntriesSecurity(filter: filterSecurity): [LocationEntries]
+  generateReportLocationEntries(page: Int, limit: Int, filters: Any): String
+  generateReportLocationEntriesSecurity(filter: filterSecurity): String
+  listLocationEntriesExternal: [LocationEntries]
+  firstLogin: Boolean
+  verifyKey(key: String): Boolean
+  listMasterLocation: [MasterLocation] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listMasterLocationActive: [MasterLocation] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getMasterLocation(_id: String): MasterLocation
+  listRisk: [Risk] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getRisk(_id: String): Risk
+  listRiskReset: [RiskReset] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getRiskReset(_id: String): RiskReset
+  listTestMRZ: [testMRZ]
+  listTimeZone: [TimeZone]
+  getTimeZone(_id: ID!): TimeZone
+  listVisitorBrand: [VisitorBrand]
+  getVisitorBrand(_id: ID): VisitorBrand
+  getVisitorBrandByCategory(categoryID: String): [VisitorBrand]
+  listVisitorCategory: [VisitorCategory]
+  getVisitorCategory(_id: ID!): VisitorCategory
+  listVisitorPlace: [VisitorPlace]
+  getVisitorPlace(_id: ID!): VisitorPlace
+  listWorker(page: Int, limit: Int, filters: Any): WorkerPaginated
+  getWorker(_id: String): Worker
+}
+
+type Mutation {
+  createInvitationEvent(input: InvitationEventInput): InvitationEvent
+  generateHostQR(_id: String, location: String): temporalQr
+  updateInvitationEvent(input: updateInvitationEventInput): InvitationEvent
+  deleteInvitationEvent(input: deleteInvitationEventInput): deleteInvitationEvent
+  deleteInvitationEventAll(input: deleteInvitationEventInput): deleteInvitationEvent
+  createPrivilege(input: privilegeInput): Privilege
+  updatePrivilege(input: updatePrivilegeInput): Privilege
+  deletePrivilege(input: deletePrivilegeInput): Privilege
+  deletePrivilegeAll(input: deletePrivilegeInput): Privilege
+  createSection(input: sectionInput): Section
+  updateSection(input: updateSectionInput): Section
+  deleteSection(input: deleteSectionInput): deleteSection
+  deleteSectionAll(input: deleteSectionInput): deleteSection
+  createUser(input: userInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  updateUser(input: updateUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  deleteUser(input: deleteUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  addKeyUser(key: String): Boolean
+  setPushToken(_id: String, token: String, type: String): Boolean
+  resetToken(_id: String, type: String): Boolean
+  deleteUserAll: Boolean
+  createApps(input: AppsInput): Apps
+  updateApps(input: updateAppsInput): Apps
+  deleteApps(input: deleteAppsInput): deleteApps
+  deleteAppsAll(input: deleteAppsInput): deleteApps
+  createAuthenticator(input: AuthenticatorInput): Authenticator
+  generateExcelAuthenticator(page: Int, limit: Int, filters: Any): String
+  generatePDFAuthenticator(page: Int, limit: Int, filters: Any): String
+  updateAuthenticator(input: updateAuthenticatorInput): Authenticator
+  deleteAuthenticator(input: deleteAuthenticatorInput): deleteAuthenticator
+  deleteAuthenticatorAll(input: deleteAuthenticatorInput): deleteAuthenticator
+  createBreach(input: BreachInput): Boolean
+  updateBreach(input: updateBreachInput): Boolean
+  unBanUser(input: updateBreachInput): Boolean
+  deleteBreach(input: deleteBreachInput): Boolean
+  deleteBreachAll(input: deleteBreachInput): Boolean
+  loginClientWa: Boolean
+  sendVerification(contactID: ID): Contact
+  createContact(input: ContactInput): Contact
+  updateContact(input: updateContactInput): Contact
+  deleteContact(input: deleteContactInput): deleteContact
+  deleteContactAll(input: deleteContactInput): deleteContact
+  sendDataVerification(input: verifiedDataInput, ID: String): Contact
+  sendDataVerificationPass(input: verifiedDataInput, ID: String): Contact
+  sendDataVerificationPDF(input: verifiedDataInputPDF, ID: String): Contact
+  verifyContact(contactID: ID): Contact
+  uploadMRZ(input: GetPhoto): readedMRZ
+  verifyPhoto(input: GetPhoto): Boolean
+  createDevice(input: DeviceInput): Boolean
+  updateDevice(input: updateDeviceInput): Boolean
+  deleteDevice(input: deleteDeviceInput): Boolean
+  deleteDeviceAll(input: deleteDeviceInput): Boolean
+  createEvent(input: EventInput): Event
+  updateEvent(input: updateEventInput): Event
+  deleteEvent(input: deleteEventInput): deleteEvent
+  deleteEventChangeStatus(input: deleteEventInputStatus): deleteEvent
+  deleteEventAll(input: deleteEventInput): deleteEvent
+  eventacceptReject(input: AcceptRejectEventInput): Event
+  createEventExpress(input: EventExpressInput): EventExpress
+  updateEventExpress(input: updateEventExpressInput): EventExpress
+  deleteEventExpress(input: deleteEventExpressInput): deleteEventExpress
+  deleteEventExpressAll(input: deleteEventExpressInput): deleteEventExpress
+  acceptEventExpress(_id: String): Boolean
+  denyEventExpress(_id: String): Boolean
+  sendQREventExpress(_id: String): Boolean
+  sendDataVerificationEventExress(input: verifiedDataInput, ID: String): EventExpress
+  sendDataVerificationPDFEventExpress(input: verifiedDataInputPDF, ID: String): EventExpress
+  manualCheckUpdate(input: manualCheckInput): manualCheckResult
+  createGalery(input: GaleryInput): Galery
+  updateGalery(input: updateGaleryInput): Galery
+  deleteGalery(input: inputId): outId
+  deleteGaleryAll: outId
+  createGroupWorker(input: GroupWorkerInput): Boolean
+  updateGroupWorker(input: updateGroupWorkerInput): Boolean
+  deleteGroupWorker(input: deleteGroupWorkerInput): Boolean
+  deleteGroupWorkerAll(input: deleteGroupWorkerInput): Boolean
+  createHistoryUser(input: HistoryUserInput): HistoryUser
+  deleteHistoryUser(input: deleteHistoryUserInput): deleteHistoryUser
+  deleteHistoryUserAll(input: deleteHistoryUserInput): deleteHistoryUser
+  createLocation(input: LocationInput): Boolean
+  updateLocation(input: updateLocationInput): Boolean
+  deleteLocation(input: deleteLocationInput): Boolean
+  deleteLocationChangeStatus(input: deleteLocationInputStatus): Boolean
+  deleteLocationAll(input: deleteLocationInput): Boolean
+  verifyInputQR(input: verifyInput): responseQR
+  createLocationAttempt(input: LocationAttemptInput): LocationAttempt
+  updateLocationAttempt(input: updateLocationAttemptInput): LocationAttempt
+  deleteLocationAttempt(input: deleteLocationAttemptInput): deleteLocationAttempt
+  deleteLocationAttemptAll(input: deleteLocationAttemptInput): deleteLocationAttempt
+  generatePDFLocationEntries(page: Int, limit: Int, filters: Any): String
+  newEntry(input: LocationEntriesInput): LocationEntries
+  cleanNoEvent: Boolean
+  deleteLocationEntry(_id: String): Boolean
+  deleteLocationEntriesAll: Boolean
+  createFirstUser(input: userInput): Token
+  confirmUser(input: confirmUser): Token
+  login(input: loginInput): Response
+  loginApp(input: loginInput): Response
+  confirmLogin(input: confirmUser): Token
+  confirmSignUp(input: confirmSignUpInput): Token
+  forgotPassword(input: forgotPassword): Response
+  changePassword(input: confirmSignUpInput): Token
+  createDummyData(count: Int): Boolean
+  createMasterLocation(input: MasterLocationInput): MasterLocation
+  updateMasterLocation(input: updateMasterLocationInput): MasterLocation
+  deleteMasterLocation(input: deleteMasterLocationInput): deleteMasterLocation
+  deleteMasterLocationChangeStatus(input: deleteMasterLocationInputStatus): deleteMasterLocation
+  deleteMasterLocationAll(input: deleteMasterLocationInput): deleteMasterLocation
+  uploadPDF(input: GetPhoto): readedPDF
+  createRisk(input: RiskInput): Risk
+  updateRisk(input: updateRiskInput): Risk
+  deleteRisk(input: deleteRiskInput): deleteRisk
+  deleteRiskAll(input: deleteRiskInput): deleteRisk
+  callRisk(input: callRiskInput): Boolean
+  createRiskReset(input: RiskResetInput): RiskReset
+  updateRiskReset(input: updateRiskResetInput): RiskReset
+  deleteRiskReset(input: deleteRiskResetInput): deleteRiskReset
+  deleteRiskResetAll(input: deleteRiskResetInput): Boolean
+  createTimeZone(input: TimeZoneInput): TimeZone
+  updateTimeZone(input: updateTimeZoneInput): TimeZone
+  deleteTimeZone(input: deleteTimeZoneInput): deleteTimeZone
+  deleteTimeZoneAll(input: deleteTimeZoneInput): deleteTimeZone
+  createVisitorBrand(input: VisitorBrandInput): VisitorBrand
+  updateVisitorBrand(input: updateVisitorBrandInput): VisitorBrand
+  deleteVisitorBrand(input: deleteVisitorBrandInput): deleteVisitorBrand
+  deleteVisitorBrandAll(input: deleteVisitorBrandInput): deleteVisitorBrand
+  createVisitorCategory(input: VisitorCategoryInput): VisitorCategory
+  updateVisitorCategory(input: updateVisitorCategoryInput): VisitorCategory
+  deleteVisitorCategory(input: deleteVisitorCategoryInput): deleteVisitorCategory
+  deleteVisitorCategoryAll(input: deleteVisitorCategoryInput): deleteVisitorCategory
+  createVisitorPlace(input: VisitorPlaceInput): VisitorPlace
+  updateVisitorPlace(input: updateVisitorPlaceInput): VisitorPlace
+  deleteVisitorPlace(input: deleteVisitorPlaceInput): deleteVisitorPlace
+  deleteVisitorPlaceAll(input: deleteVisitorPlaceInput): deleteVisitorPlace
+  createWorker(input: WorkerInput): Boolean
+  signUpWorker(input: confirmSignUpInput): Token
+  loginWorker(input: loginInput): Response
+  loginAppWorker(input: loginInput): Response
+  generateNewTemporalQR(_id: ID, location: ID): temporalQr
+  generateNewPermanentQR(_id: ID): Boolean
+  deleteTemporalQR(_id: ID): Boolean
+  createMassiveWorker(input: [WorkerInput]): [responseMassive]
+  updateWorker(input: updateWorkerInput): Boolean
+  deleteWorker(input: deleteWorkerInput): Boolean
+  deleteWorkerAll: Boolean
+}
+
+type deleteInvitationEvent {
+  _id: ID
+}
+
+input InvitationEventInput {
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input updateInvitationEventInput {
+  _id: ID!
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input deleteInvitationEventInput {
+  _id: ID
+}
+
+type Permissions {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+
+type Privilege {
+  _id: ID!
+  name: String!
+  permissions: [Permissions]
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type deletePrivilege {
+  _id: ID
+}
+
+input privilegeInput {
+  name: String!
+  permissions: [permissionsInput]
+}
+
+input updatePrivilegeInput {
+  _id: ID!
+  name: String!
+  permissions: [permissionsInput]
+}
+
+input permissionsInput {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+
+input deletePrivilegeInput {
+  _id: ID
+}
+
+scalar DateTime
+
+scalar Any
+
+scalar Upload
+
+type fileType {
+  filename: String
+  key: String
+}
+
+type Section {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteSection {
+  _id: ID
+}
+
+input sectionInput {
+  name: String!
+}
+
+input updateSectionInput {
+  _id: ID!
+  name: String
+}
+
+input deleteSectionInput {
+  _id: ID
+}
+
+type Response {
+  response: String
+  token: String
+}
+
+type User {
+  _id: ID
+  name: String
+  photo: fileType
+  lastname: String
+  email: String
+  codeWorker: String
+  privilegeID: Privilege
+  active: Boolean
+  country: String
+  token: String
+  admin: User
+  verifyLogin: Boolean
+  createdAt: DateTime
+  tokenExpo: String
+  updatedAt: DateTime
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [GroupWorker]
+  nativeLocation: [Location]
+  canUseAuthenticator: Boolean
+  timeZone: [TimeZone]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  banFinish: String
+  apps: [Apps]
+}
+
+type UserPaginated {
+  docs: [User]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type Subscription {
+  subUser: [User]
+  qrReloaded: ReloadResult
+  subGetState: Boolean
+  subListContact(hostID: ID): Boolean
+  subListEventExpress: Boolean
+  subSecurityByLocation(locationID: ID): Boolean
+  subListLocation: [LocationSub]
+}
+
+input userInput {
+  name: String
+  lastname: String
+  email: String
+  codeWorker: String
+  password: String
+  active: Boolean
+  country: String
+  tokenExpo: String
+  photo: Upload
+  lang: String
+  privilegeID: ID
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  apps: [String]
+}
+
+input updateUserInput {
+  _id: ID
+  name: String
+  photo: Upload
+  lastname: String
+  email: String
+  privilegeID: ID
+  password: String
+  country: String
+  active: Boolean
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  tokenExpo: String
+  codeWorker: String
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+input deleteUserInput {
+  _id: ID
+}
+
+type Apps {
+  _id: ID
+  name: String
+  url: String
+  abbreviation: String
+  tokenKey: String
+  clientID: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteApps {
+  _id: ID
+}
+
+input AppsInput {
+  name: String
+  abbreviation: String
+  url: String
+  clientID: String
+  tokenKey: String
+}
+
+input updateAppsInput {
+  _id: ID!
+  name: String
+  abbreviation: String
+  url: String
+  clientID: String
+  tokenKey: String
+}
+
+input deleteAppsInput {
+  _id: ID
+}
+
+type Authenticator {
+  _id: ID
+  app: Apps
+  code: String
+  status: String
+  worker: Worker
+  user: User
+  used: Boolean
+  entries: [entriesAuthenticator]
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type AuthenticatorPaginated {
+  docs: [Authenticator]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type entriesAuthenticator {
+  hourIn: String
+}
+
+type deleteAuthenticator {
+  _id: ID
+}
+
+input AuthenticatorInput {
+  app: ID
+  code: String
+  status: String
+  user: ID
+}
+
+input updateAuthenticatorInput {
+  _id: ID!
+  app: ID
+  code: String
+  status: String
+  user: ID
+}
+
+input deleteAuthenticatorInput {
+  _id: ID
+}
+
+type Breach {
+  _id: ID
+  grade: String
+  location: Location
+  status: String
+  worker: Worker
+  contact: Contact
+  user: User
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type BreachPaginated {
+  docs: [Breach]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type DeletedBreach {
+  _id: ID
+}
+
+input deleteBreachInput {
+  _id: ID
+}
+
+input BreachInput {
+  grade: String
+  location: String
+  status: String
+  worker: String
+  contact: String
+  user: String
+  createdAt: String
+  updatedAt: String
+}
+
+input updateBreachInput {
+  _id: ID!
+  grade: String
+  location: String
+  status: String
+  worker: String
+  contact: String
+  user: String
+  createdAt: String
+  updatedAt: String
+}
+
+type ClientWa {
+  qr: String
+}
+
+type ReloadResult {
+  qr: String
+  reload: Boolean
+}
+
+type Contact {
+  _id: ID
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
+  nickname: String
+  host: User
+  verified: Boolean
+  typeVerified: String
+  verifiedData: verifiedData
+  verifiedDataPDF: verifiedDataPDF
+  banFinish: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+  empresa: String
+  indicativo: String
+  DPI: String
+  verificationRegistro: Boolean
+}
+
+type verifiedData {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  birthDate: String
+  expirationDate: String
+  sex: String
+  lastName: String
+  firstName: String
+  nationality: String
+  documentNumber: String
+  correctionName: String
+  correctionLastname: String
+  correctionNumber: String
+}
+
+type verifiedDataPDF {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input GetPhoto {
+  photo: Upload
+}
+
+type readedMRZ {
+  birthDate: String
+  expirationDate: String
+  sex: String
+  firstName: String
+  lastName: String
+  nationality: String
+  documentNumber: String
+}
+
+type deleteContact {
+  _id: ID
+}
+
+input verifiedDataInput {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  birthDate: String
+  expirationDate: String
+  sex: String
+  lastName: String
+  firstName: String
+  nationality: String
+  documentNumber: String
+  correctionName: String
+  correctionLastname: String
+  correctionNumber: String
+}
+
+input verifiedDataInputPDF {
+  photo: Upload
+  documentA: Upload
+  documentB: Upload
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input ContactInput {
+  firstName: String
+  lastName: String
+  email: String
+  indicativo: String
+  phone: String
+  askVerification: Boolean
+  nickname: String
+  verified: Boolean
+  verifiedData: verifiedDataInput
+  banFinish: String
+  empresa: String
+  verificationRegistro: Boolean
+  DPI: String
+}
+
+input updateContactInput {
+  _id: ID!
+  indicativo: String
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
+  askVerification: Boolean
+  nickname: String
+  verified: Boolean
+  verifiedData: verifiedDataInput
+  banFinish: String
+  empresa: String
+  DPI: String
+  verificationRegistro: Boolean
+}
+
+input deleteContactInput {
+  _id: ID
+}
+
+type Device {
+  _id: ID
+  name: String
+  type: String
+  serialNumber: String
+  status: String
+  exists: Boolean
+  actualLocation: Location
+  enableVideo: Boolean
+  enableTalk: Boolean
+  timeWait: Int
+}
+
+type DeletedDevice {
+  _id: ID
+}
+
+input deleteDeviceInput {
+  _id: ID
+  whoDeleted: ID
+}
+
+input DeviceInput {
+  name: String!
+  type: String!
+  serialNumber: String!
+  status: String
+  actualLocation: String
+  enableVideo: Boolean!
+  enableTalk: Boolean!
+  exists: Boolean
+  timeWait: Int
+}
+
+input updateDeviceInput {
+  _id: ID!
+  name: String
+  type: String
+  serialNumber: String
+  status: String
+  enableVideo: Boolean
+  enableTalk: Boolean
+  timeWait: Int
+  exists: Boolean
+  actualLocation: String
+}
+
+type Event {
+  _id: ID
+  name: String
+  start: DateTime
+  host: User
+  end: DateTime
+  location: Location
+  beforeStart: Int
+  onlyAuthUser: Boolean
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  invitations: [InvitationEvent]
+  whoDeleted: User
+  open: Boolean
+}
+
+input AcceptRejectEventInput {
+  confirm: Boolean
+  contact: String
+  Event: String
+}
+
+type deleteEvent {
+  _id: ID
+}
+
+input EventInput {
+  name: String
+  start: DateTime
+  end: DateTime
+  location: String
+  beforeStart: Int
+  onlyAuthUser: Boolean
+  guests: [ID]
+  open: Boolean
+}
+
+input updateEventInput {
+  _id: ID!
+  name: String
+  start: DateTime
+  end: DateTime
+  location: String
+  onlyAuthUser: Boolean
+  beforeStart: Int
+  open: Boolean
+}
+
+input deleteEventInputStatus {
+  _id: ID
+  whoDeleted: ID
+}
+
+input deleteEventInput {
+  _id: ID
+}
+
+type EventExpress {
+  _id: ID
+  name: String
+  host: User
+  start: String
+  end: String
+  location: Location
+  state: String
+  createdAt: DateTime
+  updatedAt: DateTime
+  hourIn: String
+  hourOut: String
+  contact: Contact
+  motivo: String
+  authorizedBy: User
+  invitados: [Contact]
+  open: Boolean
+}
+
+type deleteEventExpress {
+  _id: ID
+}
+
+input EventExpressInput {
+  name: String
+  host: String
+  start: String
+  end: String
+  location: String
+  state: String
+  motivo: String
+  invitados: [String]
+  contact: String
+  open: Boolean
+}
+
+input updateEventExpressInput {
+  _id: ID!
+  name: String
+  host: String
+  start: String
+  end: String
+  location: String
+  state: String
+  contact: String
+  motivo: String
+  invitados: [String]
+  open: Boolean
+  hourIn: String
+  hourOut: String
+}
+
+input deleteEventExpressInput {
+  _id: ID
+}
+
+input manualCheckInput {
+  eventExpress: String
+  type: String
+  hour: String
+}
+
+type manualCheckResult {
+  ok: Boolean
+}
+
+type Galery {
+  _id: ID
+  name: String
+}
+
+input GaleryInput {
+  name: String
+}
+
+input updateGaleryInput {
+  _id: String
+  name: String
+}
+
+type outId {
+  _id: ID
+}
+
+input inputId {
+  _id: ID
+}
+
+type LocationAttemptAnalythics {
+  dataCumpIncp: [DataCumpIncp]
+  dataEvents: [DataEvents]
+}
+
+type DataEvents {
+  month: String
+  Eventos: Float
+  EventosExpress: Float
+}
+
+type DataCumpIncp {
+  month: String
+  CEXT: Float
+  CINT: Float
+  IINT: Float
+  IEXT: Float
+}
+
+type AttemptsByLocation {
+  location: String
+  CUMP: Float
+  INCP: Float
+  EVEP: Float
+  EVEE: Float
+}
+
+type General {
+  eventos: GeneralEvent
+  eventosExpress: GeneralEventsEspress
+  incumplimientos: GeneralIncumplimientos
+  incumplimientoCheckout: Any
+}
+
+type GeneralEvent {
+  today: Float
+  yesterday: Float
+  tomorrow: Float
+}
+
+type GeneralEventsEspress {
+  today: Float
+  yesterday: Float
+  tomorrow: Float
+}
+
+type GeneralIncumplimientos {
+  today: Float
+  yesterday: Float
+  si: Float
+}
+
+type GroupWorker {
+  _id: ID
+  name: String
+  location: [Location]
+  exists: Boolean
+  abbreviation: String
+}
+
+type DeletedGroupWorker {
+  _id: ID
+}
+
+input deleteGroupWorkerInput {
+  _id: ID
+  whoDeleted: ID
+}
+
+input GroupWorkerInput {
+  name: String
+  location: [ID]
+  exists: Boolean
+  abbreviation: String
+}
+
+input updateGroupWorkerInput {
+  _id: ID!
+  name: String
+  location: [ID]
+  exists: Boolean
+  abbreviation: String
+}
+
+type HistoryUser {
+  _id: ID
+  name: String
+  lastname: String
+  email: String
+  privilegeID: Privilege
+  active: Boolean
+  token: String
+  masterLocation: MasterLocation
+  location: Location
+  admin: User
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteHistoryUser {
+  _id: ID
+}
+
+input HistoryUserInput {
+  name: String
+  lastname: String!
+  email: String!
+  password: String
+  active: Boolean
+  lang: String
+  privilegeID: String
+  masterLocation: String
+  location: String
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+}
+
+input deleteHistoryUserInput {
+  _id: ID
+}
+
+type Location {
+  _id: ID
+  masterLocation: MasterLocation
+  childLocations: [Location]
+  parentLocations: [Location]
+  address: String
+  name: String
+  admins: [User]
+  host: [User]
+  security: [User]
+  typeCheck: String
+  device: Device
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  abbreviation: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type LocationSub {
+  _id: ID
+  masterLocation: MasterLocation
+  childLocations: [Location]
+  parentLocations: Location
+  address: String
+  name: String
+  admins: [User]
+  host: [User]
+  security: [User]
+  typeCheck: String
+  device: String
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type responseQR {
+  ok: Boolean
+  msg: String
+}
+
+input verifyInput {
+  QRCode: String
+  locationSerial: String
+  type: String
+}
+
+type deleteLocation {
+  _id: ID
+}
+
+input LocationInput {
+  masterLocation: String
+  childLocations: [String]
+  parentLocations: [String]
+  address: String
+  name: String
+  typeCheck: String
+  device: String
+  admins: [String]
+  state: String
+  host: [String]
+  security: [String]
+  abbreviation: String
+}
+
+input updateLocationInput {
+  _id: ID!
+  masterLocation: String
+  childLocations: [String]
+  parentLocations: [String]
+  address: String
+  name: String
+  typeCheck: String
+  device: String
+  admins: [String]
+  state: String
+  host: [String]
+  security: [String]
+  abbreviation: String
+}
+
+input deleteLocationInput {
+  _id: ID
+}
+
+input deleteLocationInputStatus {
+  _id: ID
+  whoDeleted: ID
+}
+
+type LocationAttempt {
+  _id: ID
+  authenticated: Boolean
+  worker: Worker
+  user: User
+  attempts: Int
+  contact: Contact
+  location: Location
+  type: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteLocationAttempt {
+  _id: ID
+}
+
+input LocationAttemptInput {
+  authenticated: Boolean
+  attempts: Int
+  worker: String
+  user: String
+  contact: String
+  location: String
+  type: String
+}
+
+input updateLocationAttemptInput {
+  _id: ID!
+  authenticated: Boolean
+  attempts: Int
+  worker: String
+  user: String
+  contact: String
+  location: String
+  type: String
+}
+
+input deleteLocationAttemptInput {
+  _id: ID
+}
+
+type LocationEntries {
+  _id: String
+  contact: Contact
+  location: Location
+  event: Event
+  hourIn: String
+  hourOut: String
+  host: User
+  type: String
+  worker: Worker
+  user: User
+  isEntry: Boolean
+  visitantData: VisitantInfo
+  eventExpress: EventExpress
+  typeQr: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type LocationEntriesPaginated {
+  docs: [LocationEntries]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type VisitantInfo {
+  readedMRZ: readedMRZ
+  readedPDF: readedPDF
+  brand: VisitorBrand
+  category: VisitorCategory
+  direction: String
+  place: VisitorPlace
+}
+
+input VisitantInfoInput {
+  readedMRZ: readedMRZInput
+  readedPDF: readedPDFInput
+  brand: String
+  category: String
+  direction: String
+  place: String
+}
+
+input readedMRZInput {
+  birthDate: String
+  expirationDate: String
+  sex: String
+  firstName: String
+  lastName: String
+  nationality: String
+  documentNumber: String
+}
+
+input readedPDFInput {
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+input LocationEntriesInput {
+  contact: String
+  location: String!
+  event: String
+  hourIn: String
+  hourOut: String
+  host: String
+  type: String
+  visitantData: VisitantInfoInput
+  worker: String
+}
+
+input filter {
+  start: String
+  end: String
+  location: String
+  host: String
+  verified: Boolean
+  startHour: String
+  endHour: String
+}
+
+input filterSecurity {
+  location: String
+  start: String
+  end: String
+  name: String
+  lastname: String
+  type: String
+  category: String
+  brand: String
+  destiny: String
+  host: String
+  event: String
+}
+
+input loginInput {
+  password: String
+  email: String
+  lang: String
+}
+
+input forgotPassword {
+  email: String
+  lang: String
+}
+
+type Token {
+  token: String
+}
+
+input confirmUser {
+  token: String
+  lang: String
+}
+
+input confirmSignUpInput {
+  password: String
+  _id: String
+}
+
+type MasterLocation {
+  _id: ID
+  name: String
+  address: String
+  location: [Location]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type deleteMasterLocation {
+  _id: ID
+}
+
+input MasterLocationInput {
+  name: String!
+  address: String!
+  location: [String]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+}
+
+input updateMasterLocationInput {
+  _id: ID!
+  name: String
+  address: String
+  location: [String]
+  onlyAllowAuthUSers: Boolean
+  tree: Any
+}
+
+input deleteMasterLocationInput {
+  _id: ID
+}
+
+input deleteMasterLocationInputStatus {
+  _id: ID
+  whoDeleted: ID
+}
+
+type readedPDF {
+  num1: String
+  type: String
+  name: String
+  expedition: String
+  expiration: String
+  licNum: String
+  num2: String
+}
+
+type Risk {
+  _id: ID
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+type deleteRisk {
+  _id: ID
+}
+
+input RiskInput {
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+input callRiskInput {
+  action: [String]!
+  ban: Int
+}
+
+input updateRiskInput {
+  _id: ID!
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+input deleteRiskInput {
+  _id: ID
+}
+
+type RiskReset {
+  time: Int
+}
+
+type deleteRiskReset {
+  _id: ID
+}
+
+input RiskResetInput {
+  time: Int
+}
+
+input updateRiskResetInput {
+  _id: ID!
+  time: Int
+}
+
+input deleteRiskResetInput {
+  _id: ID
+}
+
+type testMRZ {
+  _id: ID
+  verified: Boolean
+  imageName: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type TimeZone {
+  _id: ID
+  name: String
+  start: String
+  end: String
+  days: [String]
+  abbreviation: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteTimeZone {
+  _id: ID
+}
+
+input TimeZoneInput {
+  name: String!
+  start: String
+  end: String
+  abbreviation: String
+  days: [String]
+}
+
+input updateTimeZoneInput {
+  _id: ID!
+  name: String
+  start: String
+  abbreviation: String
+  end: String
+  days: [String]
+}
+
+input deleteTimeZoneInput {
+  _id: ID
+}
+
+type VisitorBrand {
+  _id: ID
+  name: String
+  photo: fileType
+  category: VisitorCategory
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteVisitorBrand {
+  _id: ID
+}
+
+input VisitorBrandInput {
+  name: String!
+  photo: Upload
+  category: ID
+}
+
+input updateVisitorBrandInput {
+  _id: ID!
+  name: String
+  photo: Upload
+  category: ID
+}
+
+input deleteVisitorBrandInput {
+  _id: ID
+}
+
+type VisitorCategory {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteVisitorCategory {
+  _id: ID
+}
+
+input VisitorCategoryInput {
+  name: String!
+}
+
+input updateVisitorCategoryInput {
+  _id: ID!
+  name: String
+}
+
+input deleteVisitorCategoryInput {
+  _id: ID
+}
+
+type VisitorPlace {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteVisitorPlace {
+  _id: ID
+}
+
+input VisitorPlaceInput {
+  name: String!
+}
+
+input updateVisitorPlaceInput {
+  _id: ID!
+  name: String
+}
+
+input deleteVisitorPlaceInput {
+  _id: ID
+}
+
+type Worker {
+  _id: ID
+  name: String
+  photo: fileType
+  lastname: String
+  email: String
+  verifyLogin: Boolean
+  active: Boolean
+  codeWorker: String
+  phone: String
+  tokenExpo: String
+  document: String
+  typeDocument: String
+  QR: String
+  temporal_Qr: temporal_Qr
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  group: [GroupWorker]
+  nativeLocation: [Location]
+  canUseAuthenticator: Boolean
+  banFinish: DateTime
+  timeZone: [TimeZone]
+  code: Boolean
+  apps: [Apps]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type temporal_Qr {
+  QR: String
+  worker: String
+  timeEnd: String
+  used: Boolean
+  valid: Boolean
+}
+
+type WorkerPaginated {
+  docs: [Worker]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+type temporalQr {
+  QR: String
+  timeEnd: String
+  used: Boolean
+  valid: Boolean
+  location: Location
+}
+
+input deleteWorkerInput {
+  _id: ID
+}
+
+type responseMassive {
+  email: String
+  success: Boolean
+  reason: Any
+}
+
+input WorkerInput {
+  key: Int
+  photo: Upload
+  name: String
+  lastname: String
+  password: String
+  email: String
+  verifyLogin: Boolean
+  codeWorker: String
+  active: Boolean
+  phone: String
+  document: String
+  typeDocument: String
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  nativeLocation: [ID]
+  rol: String
+  code: Boolean
+  banFinish: String
+  group: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  tokenExpo: String
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+input updateWorkerInput {
+  _id: ID!
+  name: String
+  photo: Upload
+  password: String
+  lastname: String
+  codeWorker: String
+  email: String
+  verifyLogin: Boolean
+  active: Boolean
+  phone: String
+  document: String
+  typeDocument: String
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  rol: String
+  code: Boolean
+  banFinish: String
+  nativeLocation: [String]
+  group: [String]
+  canUseAuthenticator: Boolean
+  tokenExpo: String
+  timeZone: [String]
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}

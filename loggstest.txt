@@ -1,0 +1,2224 @@
+-- Logs begin at Mon 2021-01-25 13:54:25 UTC, end at Fri 2022-09-30 22:33:56 UTC. --
+Sep 30 13:36:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:37:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:38:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:39:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:40:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:41:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:42:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:43:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:44:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:45:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:46:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:47:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:48:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:49:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:50:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:51:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:52:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:53:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:54:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:55:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:56:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:57:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:58:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 13:59:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:00:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:01:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:02:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:03:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:04:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:53:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:54:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:55:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:56:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:57:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:58:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 14:59:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:00:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:01:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:02:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:03:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:04:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:05:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:06:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:07:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:08:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:09:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:10:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:11:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:12:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:22:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:23:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:24:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:25:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:26:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:27:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:28:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:29:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:30:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:31:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:32:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:33:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:34:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:35:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:36:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:37:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:38:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:39:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:40:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:41:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:42:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:43:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:44:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:45:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:46:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:47:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:48:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:49:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:50:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:51:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:52:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:53:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:54:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:55:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:56:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:57:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:58:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 15:59:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:00:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:01:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:02:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:03:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:04:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:05:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:06:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:07:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:08:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:09:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:10:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:11:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:12:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:13:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:15:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:16:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:17:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:18:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:19:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:20:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:21:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:22:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:23:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:24:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:25:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:26:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:27:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:28:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:29:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:30:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:31:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:32:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:33:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:34:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:35:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:36:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:37:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:38:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:39:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:40:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:41:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:42:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:43:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:44:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:45:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:46:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:47:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:48:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:49:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:50:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:51:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:52:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:53:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:54:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:55:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:56:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:57:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:58:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 16:59:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:00:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:01:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:02:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:03:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:04:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:05:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:06:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:06:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:06:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:06:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:07:05 ip-172-31-77-236 node[992133]: []
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]: 2022-09-30T17:07:07.135Z
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]: [
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:07:07 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:07:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:07:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:08:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:08:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:08:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:09:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:09:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:09:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:10:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:10:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:10:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:10:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]: 2022-09-30T17:10:44.348Z
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]: [
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:10:44 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:10:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:11:01 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:11:02 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]: 2022-09-30T17:11:05.216Z
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]: [
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:11:05 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:11:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:11:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:11:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:12:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:12:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:12:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:13:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:13:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:13:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:14:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:14:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:15:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:16:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:17:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:17:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:18:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:18:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:19:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:19:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:20:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:20:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:21:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:21:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:21:41 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:42 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:44 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:45 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:47 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:48 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:21:57 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:58 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:21:59 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:22:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:22:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:22:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:22:36 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:22:37 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:22:38 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]: 2022-09-30T17:22:43.671Z
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]: [
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:22:43 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:23:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:23:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:24:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:24:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:25:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]: 2022-09-30T17:25:27.290Z
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]: [
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:25:27 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:25:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:26:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:26:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:27:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:27:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:28:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:29:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:29:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:30:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:30:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:30:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]: 2022-09-30T17:30:15.208Z
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]: hola
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]: [
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   },
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   {
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]:   }
+Sep 30 17:30:15 ip-172-31-77-236 node[992133]: ]
+Sep 30 17:30:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:31:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:31:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:32:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:32:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:33:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:33:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:34:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:34:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:35:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:35:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:36:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:36:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:37:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:37:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:38:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:39:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:39:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:40:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:40:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:41:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:41:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:42:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:42:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:43:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:43:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:44:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:44:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:45:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:46:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:46:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:47:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:47:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:48:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:48:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:49:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:49:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:50:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:50:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:51:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:51:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:52:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:52:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:53:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:53:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:54:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:54:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:55:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:55:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:56:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:56:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:57:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:57:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:58:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:58:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:59:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 17:59:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:00:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:00:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:01:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:01:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:02:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:02:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:03:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:03:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:04:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:04:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:05:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:05:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:06:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:06:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:07:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:07:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:08:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:08:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:09:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:09:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:10:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:10:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:11:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:11:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:12:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:13:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:13:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:14:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:14:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:15:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:15:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:16:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:16:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:17:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:17:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:18:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:18:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:19:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:19:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:20:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:20:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:21:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:21:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:22:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:22:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:23:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:23:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:24:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:24:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:25:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:26:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:26:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:27:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:27:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:28:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:28:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:29:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:29:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:30:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:30:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:31:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:31:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:32:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:32:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:33:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:33:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:34:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:34:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:35:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:35:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:36:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:36:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:37:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:37:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:38:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:38:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:39:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:39:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:40:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:40:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:41:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:41:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:42:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:42:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:43:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:43:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:44:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:45:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:45:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:46:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:46:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:47:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:47:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:48:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:48:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:49:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:49:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:50:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:50:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:51:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:51:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:52:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:52:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:53:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:53:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:54:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:54:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:55:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:55:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:56:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:57:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:57:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:58:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:58:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:59:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 18:59:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:00:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:00:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:01:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:02:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:02:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:03:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:03:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:04:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:04:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:05:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:05:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:06:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:06:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:07:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:07:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:08:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:08:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:08:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:09:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:09:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:09:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:10:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:10:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:10:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:11:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:11:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:11:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:12:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:12:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:12:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:13:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:13:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:13:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:14:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:14:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:14:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:15:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:15:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:15:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:16:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:16:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:16:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:17:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:17:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:17:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:18:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:18:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:19:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:19:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:19:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:20:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:20:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:20:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:21:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:21:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:21:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:22:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:22:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:22:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:23:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:23:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:23:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:24:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:24:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:24:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:25:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:25:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:25:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:26:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:26:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:26:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:27:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:27:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:28:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:28:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:29:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:29:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:30:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:30:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:31:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:31:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:32:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:32:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:33:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:33:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:34:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:34:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:35:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:36:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:37:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:38:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:39:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:40:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:41:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:42:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:43:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:45:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:46:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:55:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:56:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:57:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:58:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 19:59:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:00:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:01:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:02:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:03:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:04:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:06:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:07:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:08:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:09:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:10:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:11:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:12:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:13:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:14:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:15:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:16:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:17:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:18:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:19:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:20:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:21:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:22:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:23:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:24:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:25:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:26:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:27:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:29:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:30:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:31:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:32:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:33:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:34:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:35:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:36:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:37:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:38:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:39:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:40:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:41:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:42:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:43:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:43:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:44:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:44:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:45:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:45:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:46:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:46:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:47:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:48:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:49:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:49:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:50:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:50:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:51:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:51:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:52:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:52:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:53:24 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:53:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:54:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:54:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:55:26 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:55:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:56:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:56:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:57:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:57:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:57:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:58:29 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:58:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:58:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:59:30 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:59:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 20:59:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:00:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:00:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:00:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:01:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:01:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:01:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:02:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:02:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:02:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:03:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:03:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:03:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:04:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:04:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:04:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:05:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:05:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:06:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:06:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:06:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:07:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:07:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:07:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:08:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:08:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:09:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:09:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:10:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:10:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:11:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:11:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:12:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:13:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:13:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:14:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:15:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:15:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:16:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:17:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:18:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:19:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:20:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:21:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:22:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:22:49 ip-172-31-77-236 node[992133]: []
+Sep 30 21:22:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:23:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:24:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:24:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:24:11 ip-172-31-77-236 node[992133]: []
+Sep 30 21:24:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:25:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:25:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:25:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:25:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:26:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:26:32 ip-172-31-77-236 node[992133]: Sesión iniciada
+Sep 30 21:26:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]: 2022-09-30T21:27:26.799Z
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]: hola
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]: [
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]:   }
+Sep 30 21:27:26 ip-172-31-77-236 node[992133]: ]
+Sep 30 21:27:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:28:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:28:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:28:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:28:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:29:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]: {
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]:   DPI: '123456789'
+Sep 30 21:29:05 ip-172-31-77-236 node[992133]: }
+Sep 30 21:29:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:29:33 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:27 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]: {
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   _id: new ObjectId("63375fa13e0a4a38faf12316"),
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   verified: false,
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   DPI: '123456789',
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   host: [ new ObjectId("62b203f6667223b34f052076") ],
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   location: [],
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   createdAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   updatedAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]:   __v: 0
+Sep 30 21:30:41 ip-172-31-77-236 node[992133]: }
+Sep 30 21:31:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:31:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:31:28 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:31:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]: {
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   _id: new ObjectId("63375fa13e0a4a38faf12316"),
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   verified: false,
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   DPI: '123456789',
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   host: [ new ObjectId("62b203f6667223b34f052076") ],
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   location: [],
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   createdAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   updatedAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]:   __v: 0
+Sep 30 21:31:39 ip-172-31-77-236 node[992133]: }
+Sep 30 21:32:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:32:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:32:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:32:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:32:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:33:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:33:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:33:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]: {
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   _id: new ObjectId("63375fa13e0a4a38faf12316"),
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   verified: false,
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   DPI: '123456789',
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   host: [ new ObjectId("62b203f6667223b34f052076") ],
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   location: [],
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   createdAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   updatedAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]:   __v: 0
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]: }
+Sep 30 21:33:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:34:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:34:15 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:34:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:34:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:35:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:35:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:35:16 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:35:35 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:35:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:31 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:36 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]: {
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   _id: new ObjectId("63375fa13e0a4a38faf12316"),
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   verified: false,
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   DPI: '123456789',
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   host: [ new ObjectId("62b203f6667223b34f052076") ],
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   location: [],
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   createdAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   updatedAt: 2022-09-30T21:29:05.171Z,
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]:   __v: 0
+Sep 30 21:36:46 ip-172-31-77-236 node[992133]: }
+Sep 30 21:37:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:37:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:37:32 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:37:33 ip-172-31-77-236 node[992133]: [ { status: 'ok', id: 'ea991efb-4d3c-421e-99c0-3c3563865b59' } ]
+Sep 30 21:37:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:38:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:38:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:39:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]: 2022-09-30T21:39:11.136Z
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]: hola
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]: [
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]:   }
+Sep 30 21:39:11 ip-172-31-77-236 node[992133]: ]
+Sep 30 21:39:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:39:25 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:39:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]: {
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   firstName: 'Prueba Johan',
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   lastName: 'Muñoz',
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   email: 'seb_0506@hotmail.com',
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   phone: '3057666868',
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   verificationRegistro: false,
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]:   DPI: '1234'
+Sep 30 21:39:49 ip-172-31-77-236 node[992133]: }
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]: 2022-09-30T21:40:03.241Z
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]: hola
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]: [
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]:   }
+Sep 30 21:40:03 ip-172-31-77-236 node[992133]: ]
+Sep 30 21:40:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:40:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]: {
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   firstName: 'Johan Johan',
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   lastName: 'Muñoz',
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   email: 'seb_0506@hotmail.com',
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   phone: '3057666868',
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   verificationRegistro: false,
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]:   DPI: '1234'
+Sep 30 21:41:08 ip-172-31-77-236 node[992133]: }
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]: {
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]:   DPI: '32154987'
+Sep 30 21:41:37 ip-172-31-77-236 node[992133]: }
+Sep 30 21:41:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:42:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:42:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:42:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:43:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:43:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:43:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]: {
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   _id: new ObjectId("633762913e0a4a38faf13aa9"),
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   firstName: 'RODOLFO',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   lastName: 'IBARRA',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   email: 'ibarra@oac.com.gt',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   phone: '52068294',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   verified: false,
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   DPI: '32154987',
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   host: [ new ObjectId("62b203f6667223b34f052076") ],
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   location: [],
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   verificationRegistro: true,
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   createdAt: 2022-09-30T21:41:37.769Z,
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   updatedAt: 2022-09-30T21:41:37.769Z,
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]:   __v: 0
+Sep 30 21:43:13 ip-172-31-77-236 node[992133]: }
+Sep 30 21:43:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:43:51 ip-172-31-77-236 node[992133]: [ { status: 'ok', id: '7cc816b2-b6f3-4d3e-b68e-cff9e2f7683c' } ]
+Sep 30 21:44:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:44:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:45:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:45:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:45:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:45:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:45:46 ip-172-31-77-236 node[992133]: []
+Sep 30 21:46:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]: 2022-09-30T21:46:03.031Z
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]: hola
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]: [
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]:   }
+Sep 30 21:46:03 ip-172-31-77-236 node[992133]: ]
+Sep 30 21:46:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:47:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:47:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:48:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:48:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:49:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:49:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:50:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:50:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:51:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:51:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:52:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:52:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:53:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:53:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:54:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]: 2022-09-30T21:54:12.557Z
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]: hola
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]: [
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   },
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   {
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]:   }
+Sep 30 21:54:12 ip-172-31-77-236 node[992133]: ]
+Sep 30 21:54:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:54:38 ip-172-31-77-236 node[992133]: []
+Sep 30 21:54:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:55:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:55:31 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 21:55:32 ip-172-31-77-236 node[992133]: este es el doc undefined
+Sep 30 21:55:56 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:56:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:56:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:56:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:57:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:57:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:57:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:58:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:58:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:58:59 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:59:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 21:59:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:00:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:00:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:00:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:01:01 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:01:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:01:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:02:02 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:02:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:02:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:03:03 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:03:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:03:12 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:04:04 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:04:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:04:13 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:05:05 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:05:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:05:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:06:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:06:09 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:06:14 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]: {
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   firstName: 'Johan Johan',
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   lastName: 'Muñoz',
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   email: 'seb_0506@hotmail.com',
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   indicativo: '+502',
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   phone: '3057666868',
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   verificationRegistro: false,
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]:   DPI: '124567'
+Sep 30 22:06:20 ip-172-31-77-236 node[992133]: }
+Sep 30 22:07:07 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:07:16 ip-172-31-77-236 node[992133]: [ { status: 'ok', id: '3dddfff2-c8c0-4fe1-b628-d01a9ee2375f' } ]
+Sep 30 22:07:16 ip-172-31-77-236 node[992133]: aqui
+Sep 30 22:08:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:08:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:08:35 ip-172-31-77-236 node[992133]: []
+Sep 30 22:08:57 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:08:59 ip-172-31-77-236 node[992133]: []
+Sep 30 22:09:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]: 2022-09-30T22:09:28.369Z
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]: hola
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]: [
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]:   }
+Sep 30 22:09:28 ip-172-31-77-236 node[992133]: ]
+Sep 30 22:09:39 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:09:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:10:17 ip-172-31-77-236 node[992133]: Actualizando evento  new ObjectId("633768943e0a4a38faf155c8") hourIn 2022-09-30T22:10:15.268Z
+Sep 30 22:10:17 ip-172-31-77-236 node[992133]: []
+Sep 30 22:10:17 ip-172-31-77-236 node[992133]: []
+Sep 30 22:10:17 ip-172-31-77-236 node[992133]: []
+Sep 30 22:11:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:11:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:11:17 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:11:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:12:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:12:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:12:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:12:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:13:18 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:13:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:13:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:13:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:20 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:34 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:14:36 ip-172-31-77-236 node[992133]: []
+Sep 30 22:15:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:15:21 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:15:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:15:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]: {
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   firstName: 'Prueba',
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   lastName: 'Prueba',
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   email: 'sesanchezo@unal.edu.co',
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   indicativo: '+57',
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   phone: '3212214921',
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   askVerification: true,
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]:   DPI: '333'
+Sep 30 22:15:56 ip-172-31-77-236 node[992133]: }
+Sep 30 22:16:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:16:22 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:16:23 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]: {
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   firstName: 'Prueba',
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   lastName: 'Prueba',
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   email: 'test1@gmail.com',
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   indicativo: '+57',
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   phone: '3212214921',
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   askVerification: false,
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   verificationRegistro: false,
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]:   DPI: 'Prueba1'
+Sep 30 22:16:25 ip-172-31-77-236 node[992133]: }
+Sep 30 22:17:25 ip-172-31-77-236 node[992133]: (node:992133) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newContact listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+Sep 30 22:17:34 ip-172-31-77-236 node[992133]: aqui
+Sep 30 22:18:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:18:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:18:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:18:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:18:41 ip-172-31-77-236 node[992133]: (node:992133) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 newContact listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+Sep 30 22:19:40 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:19:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:19:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:19:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:20:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:20:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:20:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:21:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:21:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:21:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:22:41 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:22:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:22:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:23:00 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]: 2022-09-30T22:23:01.801Z
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]: hola
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]: [
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307bcdab6e0c265e6753386"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'Roger medina',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-08-25T16:16:41.160Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:59.246Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: false,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T18:18:02.898Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:41:03.033Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307d028b6e0c265e6756aec"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'Capacitacion IPASS',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-08-25T19:39:14.406Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.403Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T19:40:24.633Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T19:40:24.633Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307dfdab6e0c265e67593cd"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'Presentación  ',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-08-25T20:47:00.840Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-08-25T22:00:00.160Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:47:22.347Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:48:13.733Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e157b6e0c265e6759bec"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'Evento Agosto',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-08-25T10:00:00.865Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-08-25T20:53:06.309Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 10,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62c4939d472a94a259afa52e"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T20:53:43.926Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T20:53:43.926Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("6307e7213029f208efb4b08b"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'Visita tecnica',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-08-25T11:00:00.070Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-08-25T23:17:48.143Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3584b250731f7e6056d45"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 6,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62a122dd250731f7e6055695"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-08-25T21:18:25.733Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-08-25T21:19:39.265Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   },
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   {
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     _id: new ObjectId("63233f213029f208efb58bb9"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     name: 'vista tecnica',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     start: 2022-09-20T10:03:54.494Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     end: 2022-09-22T04:05:09.494Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     location: new ObjectId("62a3569b250731f7e6056966"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     beforeStart: 5,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     onlyAuthUser: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     open: true,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     host: new ObjectId("62d6e56eb39ed1183b2c6309"),
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     state: 'active',
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     createdAt: 2022-09-15T15:05:05.920Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     updatedAt: 2022-09-15T15:05:05.920Z,
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:     __v: 0
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]:   }
+Sep 30 22:23:01 ip-172-31-77-236 node[992133]: ]
+Sep 30 22:23:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:23:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:23:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:23:57 ip-172-31-77-236 node[992133]: []
+Sep 30 22:24:42 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:24:47 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:25:37 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:25:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:25:48 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:26:38 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:26:43 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:26:49 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:27:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:27:50 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:27:58 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:28:44 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:28:51 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:29:06 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:29:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:29:52 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:30:08 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:30:45 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:30:53 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:31:10 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:31:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:31:54 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:32:11 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:32:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:32:55 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:33:19 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:33:46 ip-172-31-77-236 node[992133]: Server running on port: 4002
+Sep 30 22:33:56 ip-172-31-77-236 node[992133]: Server running on port: 4002

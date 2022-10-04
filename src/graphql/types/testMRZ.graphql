@@ -1,0 +1,10 @@
+type testMRZ {
+  _id: ID
+  verified: Boolean
+  imageName: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+type Query {
+  listTestMRZ: [testMRZ]
+}

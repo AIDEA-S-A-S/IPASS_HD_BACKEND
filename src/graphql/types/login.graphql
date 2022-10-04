@@ -1,0 +1,45 @@
+type Query {
+  firstLogin: Boolean
+  verifyKey(key: String): Boolean
+}
+
+type Mutation {
+  createFirstUser(input: userInput): Token
+  confirmUser(input: confirmUser): Token
+  login(input: loginInput): Response
+  loginApp(input: loginInput): Response
+  confirmLogin(input: confirmUser): Token
+  confirmSignUp(input: confirmSignUpInput): Token
+  forgotPassword(input: forgotPassword): Response
+  changePassword(input: confirmSignUpInput): Token
+}
+
+input loginInput {
+  password: String
+  email: String
+  lang: String
+}
+
+input forgotPassword {
+  email: String
+  lang: String
+}
+
+type Response {
+  response: String
+  token: String
+}
+
+type Token {
+  token: String
+}
+
+input confirmUser {
+  token: String
+  lang: String
+}
+
+input confirmSignUpInput {
+  password: String
+  _id: String
+}

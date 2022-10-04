@@ -1,0 +1,123 @@
+type Location {
+  _id: ID
+  masterLocation: MasterLocation
+  childLocations: [Location]
+  parentLocations: [Location]
+  address: String
+  name: String
+  admins: [User]
+  host: [User]
+  security: [User]
+  typeCheck: String
+  device: Device
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  abbreviation: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type LocationSub {
+  _id: ID
+  masterLocation: MasterLocation
+  childLocations: [Location]
+  parentLocations: Location
+  address: String
+  name: String
+  admins: [User]
+  host: [User]
+  security: [User]
+  typeCheck: String
+  device: String
+  createdAt: DateTime
+  updatedAt: DateTime
+  state: String
+  deletedDate: DateTime
+  whoDeleted: User
+}
+
+type Query {
+  listLocation: [Location]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  listLocationActive: [Location]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getLocation(_id: String): Location
+  getLocationSecurity: [Location]
+  getLocationsByMaster(_id: String): [Location]
+  getAllToSecurity(locationID: String): Any
+  generateExcelSecurity(locationID: String): Any
+  generatePDFSecurity(locationID: String): Any
+}
+
+type Mutation {
+  createLocation(input: LocationInput): Boolean
+  updateLocation(input: updateLocationInput): Boolean
+  deleteLocation(input: deleteLocationInput): Boolean
+  deleteLocationChangeStatus(input: deleteLocationInputStatus): Boolean
+  deleteLocationAll(input: deleteLocationInput): Boolean
+  verifyInputQR(input: verifyInput): responseQR
+}
+
+type Subscription {
+  subSecurityByLocation(locationID: ID): Boolean
+}
+
+type responseQR {
+  ok: Boolean
+  msg: String
+}
+
+input verifyInput {
+  QRCode: String
+  locationSerial: String
+  type: String
+}
+
+type Subscription {
+  subListLocation: [LocationSub]
+}
+
+type deleteLocation {
+  _id: ID
+}
+
+input LocationInput {
+  masterLocation: String
+  childLocations: [String]
+  parentLocations: [String]
+  address: String
+  name: String
+  typeCheck: String
+  device: String
+  admins: [String]
+  state: String
+  host: [String]
+  security: [String]
+  abbreviation: String
+}
+
+input updateLocationInput {
+  _id: ID!
+  masterLocation: String
+  childLocations: [String]
+  parentLocations: [String]
+  address: String
+  name: String
+  typeCheck: String
+  device: String
+  admins: [String]
+  state: String
+  host: [String]
+  security: [String]
+  abbreviation: String
+}
+
+input deleteLocationInput {
+  _id: ID
+}
+
+input deleteLocationInputStatus {
+  _id: ID
+  whoDeleted: ID
+}

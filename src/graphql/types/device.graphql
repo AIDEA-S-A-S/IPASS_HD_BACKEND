@@ -1,0 +1,61 @@
+type Device {
+  _id: ID
+  name: String
+  type: String
+  serialNumber: String
+  status: String
+  exists: Boolean
+  actualLocation: Location
+  enableVideo: Boolean
+  enableTalk: Boolean
+  timeWait: Int
+}
+
+type Query {
+  listDevice: [Device]
+  listDeviceIfExists: [Device]
+  listAvailableDevices: [Device]
+  getDevice(_id: ID!): Device
+  getLocationBySerialNumber(serialNumber: String): Device
+}
+
+type Mutation {
+  createDevice(input: DeviceInput): Boolean
+  updateDevice(input: updateDeviceInput): Boolean
+  deleteDevice(input: deleteDeviceInput): Boolean
+  deleteDeviceAll(input: deleteDeviceInput): Boolean
+}
+
+type DeletedDevice {
+  _id: ID
+}
+
+input deleteDeviceInput {
+  _id: ID
+  whoDeleted: ID
+}
+
+input DeviceInput {
+  name: String!
+  type: String!
+  serialNumber: String!
+  status: String
+  actualLocation: String
+  enableVideo: Boolean!
+  enableTalk: Boolean!
+  exists: Boolean
+  timeWait: Int
+}
+
+input updateDeviceInput {
+  _id: ID!
+  name: String
+  type: String
+  serialNumber: String
+  status: String
+  enableVideo: Boolean
+  enableTalk: Boolean
+  timeWait: Int
+  exists: Boolean
+  actualLocation: String
+}

@@ -1,0 +1,48 @@
+type Risk {
+  _id: ID
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+type Query {
+  listRisk: [Risk] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getRisk(_id: String): Risk
+}
+
+type Mutation {
+  createRisk(input: RiskInput): Risk
+  updateRisk(input: updateRiskInput): Risk
+  deleteRisk(input: deleteRiskInput): deleteRisk
+  deleteRiskAll(input: deleteRiskInput): deleteRisk
+  callRisk(input: callRiskInput): Boolean
+}
+
+type deleteRisk {
+  _id: ID
+}
+
+input RiskInput {
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+input callRiskInput {
+  action: [String]!
+  ban: Int
+}
+
+input updateRiskInput {
+  _id: ID!
+  name: String
+  try: Int
+  ban: Int
+  actions: [String]
+}
+
+input deleteRiskInput {
+  _id: ID
+}

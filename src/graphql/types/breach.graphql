@@ -1,0 +1,71 @@
+type Breach {
+  _id: ID
+  grade: String
+  location: Location
+  status: String
+  worker: Worker
+  contact: Contact
+  user: User
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+type BreachPaginated {
+  docs: [Breach]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+type Query {
+  listBreach: [Breach]
+  listBreachLast2Days: [Breach]
+  listBreachLast2DaysApp(page: Int, limit: Int, filters: Any): BreachPaginated
+  generaReportBreach(page: Int, limit: Int, filters: Any): String
+  generaReportBreachPDF(page: Int, limit: Int, filters: Any): String
+  getBreach(_id: ID!): Breach
+}
+
+type Mutation {
+  createBreach(input: BreachInput): Boolean
+  updateBreach(input: updateBreachInput): Boolean
+  unBanUser(input: updateBreachInput): Boolean
+  deleteBreach(input: deleteBreachInput): Boolean
+  deleteBreachAll(input: deleteBreachInput): Boolean
+}
+
+type DeletedBreach {
+  _id: ID
+}
+
+input deleteBreachInput {
+  _id: ID
+}
+
+input BreachInput {
+  grade: String
+  location: String
+  status: String
+  worker: String
+  contact: String
+  user: String
+  createdAt: String
+  updatedAt: String
+}
+
+input updateBreachInput {
+  _id: ID!
+  grade: String
+  location: String
+  status: String
+  worker: String
+  contact: String
+  user: String
+  createdAt: String
+  updatedAt: String
+}

@@ -1,0 +1,33 @@
+type RiskReset {
+  time: Int
+}
+
+type Query {
+  listRiskReset: [RiskReset]
+    @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getRiskReset(_id: String): RiskReset
+}
+
+type Mutation {
+  createRiskReset(input: RiskResetInput): RiskReset
+  updateRiskReset(input: updateRiskResetInput): RiskReset
+  deleteRiskReset(input: deleteRiskResetInput): deleteRiskReset
+  deleteRiskResetAll(input: deleteRiskResetInput): Boolean
+}
+
+type deleteRiskReset {
+  _id: ID
+}
+
+input RiskResetInput {
+  time: Int
+}
+
+input updateRiskResetInput {
+  _id: ID!
+  time: Int
+}
+
+input deleteRiskResetInput {
+  _id: ID
+}
