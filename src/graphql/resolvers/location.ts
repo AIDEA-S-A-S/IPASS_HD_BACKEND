@@ -113,7 +113,7 @@ export const resolver = {
         .populate('host')
         .populate('location')
 
-      console.log(events)
+      //console.log(events)
 
       //@ts-ignore
       const eventsExpress = await EventExpress.find({

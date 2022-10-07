@@ -53,6 +53,7 @@ type deleteEvent {
 input EventInput {
   name: String
   start: DateTime
+  contact: String
   end: DateTime
   location: String
   beforeStart: Int

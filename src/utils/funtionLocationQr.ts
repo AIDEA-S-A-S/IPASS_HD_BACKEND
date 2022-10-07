@@ -51,7 +51,7 @@ const getLocation = async (
       )
     )
     if (!actualDevice?.actualLocation) {
-      console.log('55')
+      //console.log('55')
       return { ok: false, location: null, master: null, msg: 'No encontrado' }
     }
     const actualMasterLocation = JSON.parse(
@@ -60,7 +60,7 @@ const getLocation = async (
       )
     )
     if (!actualDevice || !actualMasterLocation) {
-      console.log('65')
+      //console.log('65')
       return { ok: false, location: null, master: null, msg: 'No encontrado' }
     }
     return {
@@ -281,7 +281,7 @@ const validateEvent = async (
 }
 
 const getConnections = (elements: ITreeMaster[], masterId: string) => {
-  console.log(elements)
+  //console.log(elements)
   return elements.filter(e => e.type === 'buttonedge' && e.source !== masterId)
 }
 
@@ -583,7 +583,7 @@ const validateUserTemporal = async (
   if (!temporal.valid) {
     return { ok: false, msg: 'QR no valido', dest: null }
   }
-  console.log(temporal)
+  //console.log(temporal)
 
   const actualUser = JSON.parse(JSON.stringify(temporal.user)) as IUser
   if (actualUser.banFinish) {
@@ -840,11 +840,11 @@ export const validateQr = async (QRValue: string, locationSerial: string) => {
     const targets = await getTargets(master, location)
 
     if (!targets.map(e => e.location).includes(resp.dest._id)) {
-      console.log('777')
+      //console.log('777')
       try {
         attemptContact(location, actualContact, prevAttempt, fixedQr.type as typeQr)
       } catch (error) {
-        console.log('aqui')
+        console.log(error)
       }
       return { ok: false, msg: 'No puede pasar' }
     }
@@ -864,7 +864,7 @@ export const validateQr = async (QRValue: string, locationSerial: string) => {
         if (!closeParents.map(e => e.location).includes(last.location as string)) {
           // RUTA DE PADRES NO INCLUYE A LOCACIÓN DESTINO
           attemptContact(location, actualContact, prevAttempt, fixedQr.type as typeQr)
-          console.log('796')
+          //console.log('796')
           return { ok: false, msg: 'No puede pasar' }
         }
         if (resp.dest._id === location._id) {
@@ -891,7 +891,7 @@ export const validateQr = async (QRValue: string, locationSerial: string) => {
         if (!childs.map(e => e.location).includes(resp.dest._id)) {
           // HIJOS DE LOCACIÓN ACTUAL NO INCLUYEN A LOCACIÓN DESTINO
           attemptContact(location, actualContact, prevAttempt, fixedQr.type as typeQr)
-          console.log('823')
+          //console.log('823')
           return { ok: false, msg: 'No puede pasar' }
         }
         return validateEntry(
@@ -907,7 +907,7 @@ export const validateQr = async (QRValue: string, locationSerial: string) => {
       //Si es la primera vez de ingreso con codigo
       // No se encuentra en el arbol de la locacion
       if (!targets.map(e => e.location).includes(location._id)) {
-        console.log('839')
+        //console.log('839')
         attemptContact(location, actualContact, prevAttempt, fixedQr.type as typeQr)
         return { ok: false, msg: 'No puede pasar' }
       }

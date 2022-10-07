@@ -87,7 +87,7 @@ export const resolver = {
     },
     async getContact(_: any, { _id }: any) {
       const contact = await Contact.findById(_id).lean()
-      console.log(contact)
+      //console.log(contact)
       return contact
     },
     async getEventContact(_: any, { _id }: any) {
@@ -106,7 +106,7 @@ export const resolver = {
   Mutation: {
     async createContact(_: any, { input }: any, context: IContextGraphql) {
       try {
-        console.log(input)
+        //console.log(input)
         const user = await getUserFromToken(context.req.tokenAuth as string)
         const actualContats = await Contact.find({ host: { $eq: user._id } })
         if (input.email && actualContats.find(e => e.email === input.email)) {
@@ -116,12 +116,16 @@ export const resolver = {
         newContact.host = user._id
         newContact.verified = false
         const saved = await newContact.save()
-        if (input.verificationRegistro) {
-          await sendEmail(
-            newContact.email,
-            messageVerifiedContact('es', saved._id),
-            Language.emailVerificationSubject['es']
-          )
+        try {
+          if (input.verificationRegistro && newContact.email) {
+            await sendEmail(
+              newContact.email,
+              messageVerifiedContact('es', saved._id),
+              Language.emailVerificationSubject['es']
+            )
+          }
+        } catch (error) {
+          console.log(error)
         }
         updateContact(user._id)
         return saved

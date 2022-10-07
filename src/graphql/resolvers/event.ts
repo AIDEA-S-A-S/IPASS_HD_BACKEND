@@ -158,10 +158,8 @@ export const resolver = {
         ]
 
         if (privilege.name === 'Super_admin') {
-          console.log('hola')
-
           const data = await Event.aggregate([...orFilter])
-          console.log(data)
+          //console.log(data)
           return data
         } else if (privilege.name === 'admin') {
           const actualLocations = await location.find({ admins: { $in: user._id } })

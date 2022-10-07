@@ -1,38 +1,15 @@
-directive @rateLimit(max: Int, window: String, message: String, identityArgs: [String], arrayLengthField: String) on FIELD_DEFINITION
-
-type InvitationEvent {
+type Apps {
   _id: ID
-  event: Event
-  contact: Contact
-  confirmed: Boolean
-  alreadySendInvitation: Boolean
-  isIn: Boolean
-  hourIn: String
-  type: String
-  host: User
-  routes: Any
-  location: Location
-  expiration: DateTime
+  name: String
+  url: String
+  abbreviation: String
+  tokenKey: String
+  clientID: String
   createdAt: DateTime
   updatedAt: DateTime
 }
 
 type Query {
-  listInvitationEvent: [InvitationEvent] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getInvitationEvent(_id: String): InvitationEvent
-  listInvitationEventByEvent(_id: String): [InvitationEvent]
-  listPrivilege: [Privilege] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getPrivilege(_id: String): Privilege
-  listSection: [Section] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getSection(_id: String): Section
-  listUser(page: Int, limit: Int, filters: Any): UserPaginated @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getUser(_id: String): User @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getUsersAdmin: [User]
-  listAllUsers: [User] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  getUserHost: [User]
-  verifyKeyUser: Any
-  countUserWorker: Float
-  getUsersSecurity: [User]
   listApps: [Apps] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getApps(_id: String): Apps
   listAuthenticator(page: Int, limit: Int, filters: Any): AuthenticatorPaginated @rateLimit(window: "10s", max: 20, message: "You are doing that too often.")
@@ -75,6 +52,9 @@ type Query {
   getGroupWorker(_id: ID!): GroupWorker
   listHistoryUser: [HistoryUser] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getHistoryUser(_id: String): HistoryUser
+  listInvitationEvent: [InvitationEvent] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getInvitationEvent(_id: String): InvitationEvent
+  listInvitationEventByEvent(_id: String): [InvitationEvent]
   listLocation: [Location] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   listLocationActive: [Location] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getLocation(_id: String): Location
@@ -104,13 +84,25 @@ type Query {
   listMasterLocation: [MasterLocation] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   listMasterLocationActive: [MasterLocation] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getMasterLocation(_id: String): MasterLocation
+  listPrivilege: [Privilege] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getPrivilege(_id: String): Privilege
   listRisk: [Risk] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getRisk(_id: String): Risk
   listRiskReset: [RiskReset] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getRiskReset(_id: String): RiskReset
+  listSection: [Section] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getSection(_id: String): Section
   listTestMRZ: [testMRZ]
   listTimeZone: [TimeZone]
   getTimeZone(_id: ID!): TimeZone
+  listUser(page: Int, limit: Int, filters: Any): UserPaginated @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUser(_id: String): User @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUsersAdmin: [User]
+  listAllUsers: [User] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  getUserHost: [User]
+  verifyKeyUser: Any
+  countUserWorker: Float
+  getUsersSecurity: [User]
   listVisitorBrand: [VisitorBrand]
   getVisitorBrand(_id: ID): VisitorBrand
   getVisitorBrandByCategory(categoryID: String): [VisitorBrand]
@@ -123,26 +115,6 @@ type Query {
 }
 
 type Mutation {
-  createInvitationEvent(input: InvitationEventInput): InvitationEvent
-  generateHostQR(_id: String, location: String): temporalQr
-  updateInvitationEvent(input: updateInvitationEventInput): InvitationEvent
-  deleteInvitationEvent(input: deleteInvitationEventInput): deleteInvitationEvent
-  deleteInvitationEventAll(input: deleteInvitationEventInput): deleteInvitationEvent
-  createPrivilege(input: privilegeInput): Privilege
-  updatePrivilege(input: updatePrivilegeInput): Privilege
-  deletePrivilege(input: deletePrivilegeInput): Privilege
-  deletePrivilegeAll(input: deletePrivilegeInput): Privilege
-  createSection(input: sectionInput): Section
-  updateSection(input: updateSectionInput): Section
-  deleteSection(input: deleteSectionInput): deleteSection
-  deleteSectionAll(input: deleteSectionInput): deleteSection
-  createUser(input: userInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  updateUser(input: updateUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  deleteUser(input: deleteUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
-  addKeyUser(key: String): Boolean
-  setPushToken(_id: String, token: String, type: String): Boolean
-  resetToken(_id: String, type: String): Boolean
-  deleteUserAll: Boolean
   createApps(input: AppsInput): Apps
   updateApps(input: updateAppsInput): Apps
   deleteApps(input: deleteAppsInput): deleteApps
@@ -201,6 +173,11 @@ type Mutation {
   createHistoryUser(input: HistoryUserInput): HistoryUser
   deleteHistoryUser(input: deleteHistoryUserInput): deleteHistoryUser
   deleteHistoryUserAll(input: deleteHistoryUserInput): deleteHistoryUser
+  createInvitationEvent(input: InvitationEventInput): InvitationEvent
+  generateHostQR(_id: String, location: String): temporalQr
+  updateInvitationEvent(input: updateInvitationEventInput): InvitationEvent
+  deleteInvitationEvent(input: deleteInvitationEventInput): deleteInvitationEvent
+  deleteInvitationEventAll(input: deleteInvitationEventInput): deleteInvitationEvent
   createLocation(input: LocationInput): Boolean
   updateLocation(input: updateLocationInput): Boolean
   deleteLocation(input: deleteLocationInput): Boolean
@@ -231,6 +208,10 @@ type Mutation {
   deleteMasterLocationChangeStatus(input: deleteMasterLocationInputStatus): deleteMasterLocation
   deleteMasterLocationAll(input: deleteMasterLocationInput): deleteMasterLocation
   uploadPDF(input: GetPhoto): readedPDF
+  createPrivilege(input: privilegeInput): Privilege
+  updatePrivilege(input: updatePrivilegeInput): Privilege
+  deletePrivilege(input: deletePrivilegeInput): Privilege
+  deletePrivilegeAll(input: deletePrivilegeInput): Privilege
   createRisk(input: RiskInput): Risk
   updateRisk(input: updateRiskInput): Risk
   deleteRisk(input: deleteRiskInput): deleteRisk
@@ -240,10 +221,21 @@ type Mutation {
   updateRiskReset(input: updateRiskResetInput): RiskReset
   deleteRiskReset(input: deleteRiskResetInput): deleteRiskReset
   deleteRiskResetAll(input: deleteRiskResetInput): Boolean
+  createSection(input: sectionInput): Section
+  updateSection(input: updateSectionInput): Section
+  deleteSection(input: deleteSectionInput): deleteSection
+  deleteSectionAll(input: deleteSectionInput): deleteSection
   createTimeZone(input: TimeZoneInput): TimeZone
   updateTimeZone(input: updateTimeZoneInput): TimeZone
   deleteTimeZone(input: deleteTimeZoneInput): deleteTimeZone
   deleteTimeZoneAll(input: deleteTimeZoneInput): deleteTimeZone
+  createUser(input: userInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  updateUser(input: updateUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  deleteUser(input: deleteUserInput): Boolean @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
+  addKeyUser(key: String): Boolean
+  setPushToken(_id: String, token: String, type: String): Boolean
+  resetToken(_id: String, type: String): Boolean
+  deleteUserAll: Boolean
   createVisitorBrand(input: VisitorBrandInput): VisitorBrand
   updateVisitorBrand(input: updateVisitorBrandInput): VisitorBrand
   deleteVisitorBrand(input: deleteVisitorBrandInput): deleteVisitorBrand
@@ -267,266 +259,6 @@ type Mutation {
   updateWorker(input: updateWorkerInput): Boolean
   deleteWorker(input: deleteWorkerInput): Boolean
   deleteWorkerAll: Boolean
-}
-
-type deleteInvitationEvent {
-  _id: ID
-}
-
-input InvitationEventInput {
-  event: String
-  contact: String
-  confirmed: Boolean
-  alreadySendInvitation: Boolean
-  type: String
-  host: String
-  location: String
-  expiration: DateTime
-}
-
-input updateInvitationEventInput {
-  _id: ID!
-  event: String
-  contact: String
-  confirmed: Boolean
-  alreadySendInvitation: Boolean
-  type: String
-  host: String
-  location: String
-  expiration: DateTime
-}
-
-input deleteInvitationEventInput {
-  _id: ID
-}
-
-type Permissions {
-  sectionID: ID
-  read: Boolean
-  create: Boolean
-  delete: Boolean
-  update: Boolean
-}
-
-type Privilege {
-  _id: ID!
-  name: String!
-  permissions: [Permissions]
-  createdAt: DateTime!
-  updatedAt: DateTime!
-}
-
-type deletePrivilege {
-  _id: ID
-}
-
-input privilegeInput {
-  name: String!
-  permissions: [permissionsInput]
-}
-
-input updatePrivilegeInput {
-  _id: ID!
-  name: String!
-  permissions: [permissionsInput]
-}
-
-input permissionsInput {
-  sectionID: ID
-  read: Boolean
-  create: Boolean
-  delete: Boolean
-  update: Boolean
-}
-
-input deletePrivilegeInput {
-  _id: ID
-}
-
-scalar DateTime
-
-scalar Any
-
-scalar Upload
-
-type fileType {
-  filename: String
-  key: String
-}
-
-type Section {
-  _id: ID
-  name: String
-  createdAt: DateTime
-  updatedAt: DateTime
-}
-
-type deleteSection {
-  _id: ID
-}
-
-input sectionInput {
-  name: String!
-}
-
-input updateSectionInput {
-  _id: ID!
-  name: String
-}
-
-input deleteSectionInput {
-  _id: ID
-}
-
-type Response {
-  response: String
-  token: String
-}
-
-type User {
-  _id: ID
-  name: String
-  photo: fileType
-  lastname: String
-  email: String
-  codeWorker: String
-  privilegeID: Privilege
-  active: Boolean
-  country: String
-  token: String
-  admin: User
-  verifyLogin: Boolean
-  createdAt: DateTime
-  tokenExpo: String
-  updatedAt: DateTime
-  canCreateHost: Boolean
-  allEventWithAuth: Boolean
-  canAccessToApp: Boolean
-  canAccessToWeb: Boolean
-  document: String
-  typeDocument: String
-  code: Boolean
-  phone: String
-  QR: String
-  group: [GroupWorker]
-  nativeLocation: [Location]
-  canUseAuthenticator: Boolean
-  timeZone: [TimeZone]
-  name1: String
-  name2: String
-  lastname1: String
-  lastname2: String
-  banFinish: String
-  apps: [Apps]
-}
-
-type UserPaginated {
-  docs: [User]
-  totalDocs: Int
-  limit: Int
-  page: Int
-  totalPages: Int
-  pagingCounter: Int
-  hasPrevPage: Boolean
-  hasNextPage: Boolean
-  offset: Int
-  prevPage: Int
-  nextPage: Int
-}
-
-type Subscription {
-  subUser: [User]
-  qrReloaded: ReloadResult
-  subGetState: Boolean
-  subListContact(hostID: ID): Boolean
-  subListEventExpress: Boolean
-  subSecurityByLocation(locationID: ID): Boolean
-  subListLocation: [LocationSub]
-}
-
-input userInput {
-  name: String
-  lastname: String
-  email: String
-  codeWorker: String
-  password: String
-  active: Boolean
-  country: String
-  tokenExpo: String
-  photo: Upload
-  lang: String
-  privilegeID: ID
-  verifyLogin: Boolean
-  canCreateHost: Boolean
-  allEventWithAuth: Boolean
-  canAccessToApp: Boolean
-  canAccessToWeb: Boolean
-  document: String
-  typeDocument: String
-  code: Boolean
-  phone: String
-  QR: String
-  group: [String]
-  nativeLocation: [String]
-  canUseAuthenticator: Boolean
-  timeZone: [String]
-  banFinish: String
-  admin: String
-  name1: String
-  name2: String
-  lastname1: String
-  lastname2: String
-  apps: [String]
-}
-
-input updateUserInput {
-  _id: ID
-  name: String
-  photo: Upload
-  lastname: String
-  email: String
-  privilegeID: ID
-  password: String
-  country: String
-  active: Boolean
-  verifyLogin: Boolean
-  canCreateHost: Boolean
-  tokenExpo: String
-  codeWorker: String
-  allEventWithAuth: Boolean
-  canAccessToApp: Boolean
-  canAccessToWeb: Boolean
-  document: String
-  typeDocument: String
-  code: Boolean
-  phone: String
-  QR: String
-  group: [String]
-  nativeLocation: [String]
-  canUseAuthenticator: Boolean
-  timeZone: [String]
-  banFinish: String
-  admin: String
-  apps: [String]
-  name1: String
-  name2: String
-  lastname1: String
-  lastname2: String
-}
-
-input deleteUserInput {
-  _id: ID
-}
-
-type Apps {
-  _id: ID
-  name: String
-  url: String
-  abbreviation: String
-  tokenKey: String
-  clientID: String
-  createdAt: DateTime
-  updatedAt: DateTime
 }
 
 type deleteApps {
@@ -667,6 +399,16 @@ input updateBreachInput {
 
 type ClientWa {
   qr: String
+}
+
+type Subscription {
+  qrReloaded: ReloadResult
+  subGetState: Boolean
+  subListContact(hostID: ID): Boolean
+  subListEventExpress: Boolean
+  subSecurityByLocation(locationID: ID): Boolean
+  subListLocation: [LocationSub]
+  subUser: [User]
 }
 
 type ReloadResult {
@@ -855,6 +597,8 @@ input updateDeviceInput {
   actualLocation: String
 }
 
+directive @rateLimit(max: Int, window: String, message: String, identityArgs: [String], arrayLengthField: String) on FIELD_DEFINITION
+
 type Event {
   _id: ID
   name: String
@@ -886,6 +630,7 @@ type deleteEvent {
 input EventInput {
   name: String
   start: DateTime
+  contact: String
   end: DateTime
   location: String
   beforeStart: Int
@@ -1125,6 +870,54 @@ input HistoryUserInput {
 }
 
 input deleteHistoryUserInput {
+  _id: ID
+}
+
+type InvitationEvent {
+  _id: ID
+  event: Event
+  contact: Contact
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  isIn: Boolean
+  hourIn: String
+  type: String
+  host: User
+  routes: Any
+  location: Location
+  expiration: DateTime
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteInvitationEvent {
+  _id: ID
+}
+
+input InvitationEventInput {
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input updateInvitationEventInput {
+  _id: ID!
+  event: String
+  contact: String
+  confirmed: Boolean
+  alreadySendInvitation: Boolean
+  type: String
+  host: String
+  location: String
+  expiration: DateTime
+}
+
+input deleteInvitationEventInput {
   _id: ID
 }
 
@@ -1382,6 +1175,11 @@ input forgotPassword {
   lang: String
 }
 
+type Response {
+  response: String
+  token: String
+}
+
 type Token {
   token: String
 }
@@ -1450,6 +1248,49 @@ type readedPDF {
   num2: String
 }
 
+type Permissions {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+
+type Privilege {
+  _id: ID!
+  name: String!
+  permissions: [Permissions]
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type deletePrivilege {
+  _id: ID
+}
+
+input privilegeInput {
+  name: String!
+  permissions: [permissionsInput]
+}
+
+input updatePrivilegeInput {
+  _id: ID!
+  name: String!
+  permissions: [permissionsInput]
+}
+
+input permissionsInput {
+  sectionID: ID
+  read: Boolean
+  create: Boolean
+  delete: Boolean
+  update: Boolean
+}
+
+input deletePrivilegeInput {
+  _id: ID
+}
+
 type Risk {
   _id: ID
   name: String
@@ -1507,6 +1348,41 @@ input deleteRiskResetInput {
   _id: ID
 }
 
+scalar DateTime
+
+scalar Any
+
+scalar Upload
+
+type fileType {
+  filename: String
+  key: String
+}
+
+type Section {
+  _id: ID
+  name: String
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteSection {
+  _id: ID
+}
+
+input sectionInput {
+  name: String!
+}
+
+input updateSectionInput {
+  _id: ID!
+  name: String
+}
+
+input deleteSectionInput {
+  _id: ID
+}
+
 type testMRZ {
   _id: ID
   verified: Boolean
@@ -1548,6 +1424,131 @@ input updateTimeZoneInput {
 }
 
 input deleteTimeZoneInput {
+  _id: ID
+}
+
+type User {
+  _id: ID
+  name: String
+  photo: fileType
+  lastname: String
+  email: String
+  codeWorker: String
+  privilegeID: Privilege
+  active: Boolean
+  country: String
+  token: String
+  admin: User
+  verifyLogin: Boolean
+  createdAt: DateTime
+  tokenExpo: String
+  updatedAt: DateTime
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [GroupWorker]
+  nativeLocation: [Location]
+  canUseAuthenticator: Boolean
+  timeZone: [TimeZone]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  banFinish: String
+  apps: [Apps]
+}
+
+type UserPaginated {
+  docs: [User]
+  totalDocs: Int
+  limit: Int
+  page: Int
+  totalPages: Int
+  pagingCounter: Int
+  hasPrevPage: Boolean
+  hasNextPage: Boolean
+  offset: Int
+  prevPage: Int
+  nextPage: Int
+}
+
+input userInput {
+  name: String
+  lastname: String
+  email: String
+  codeWorker: String
+  password: String
+  active: Boolean
+  country: String
+  tokenExpo: String
+  photo: Upload
+  lang: String
+  privilegeID: ID
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+  apps: [String]
+}
+
+input updateUserInput {
+  _id: ID
+  name: String
+  photo: Upload
+  lastname: String
+  email: String
+  privilegeID: ID
+  password: String
+  country: String
+  active: Boolean
+  verifyLogin: Boolean
+  canCreateHost: Boolean
+  tokenExpo: String
+  codeWorker: String
+  allEventWithAuth: Boolean
+  canAccessToApp: Boolean
+  canAccessToWeb: Boolean
+  document: String
+  typeDocument: String
+  code: Boolean
+  phone: String
+  QR: String
+  group: [String]
+  nativeLocation: [String]
+  canUseAuthenticator: Boolean
+  timeZone: [String]
+  banFinish: String
+  admin: String
+  apps: [String]
+  name1: String
+  name2: String
+  lastname1: String
+  lastname2: String
+}
+
+input deleteUserInput {
   _id: ID
 }
 

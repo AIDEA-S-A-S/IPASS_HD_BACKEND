@@ -61,7 +61,7 @@ export const resolver = {
         limit: limit && limit > 0 ? limit : 10,
         page
       })
-      console.log('este es el doc', resp.docs[0])
+      //console.log('este es el doc', resp.docs[0])
       //@ts-ignore
       return resp
     },

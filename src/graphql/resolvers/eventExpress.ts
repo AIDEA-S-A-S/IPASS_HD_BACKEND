@@ -82,7 +82,7 @@ export const resolver = {
     async createEventExpress(_: any, { input }: any, context: IContextGraphql) {
       try {
         const user = await getUserFromToken(context.req.tokenAuth as string)
-        console.log("aqui")
+        //console.log("aqui")
         const newEventExpress = new EventExpress(input)
         newEventExpress.host = user._id
         newEventExpress.state = 'waiting'

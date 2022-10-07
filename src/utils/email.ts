@@ -24,16 +24,16 @@ const readHTMLFile = (path: string): string => {
 
 export const sendEmail = async (to: string, message: string, subject: string) => {
   const trasnporter = nodemailer.createTransport({
-    host: 'mail.oac.com.gt',
+    host: 'mail.aidea.com.co',
     port: 465,
     secure: true,
     auth: {
-      user: 'sistemas@oac.com.gt',
-      pass: 'Siste@Oac#2022'
+      user: 'test@aidea.com.co',
+      pass: 'kVW{x32H;W)N'
     }
   })
   await trasnporter.sendMail({
-    from: '"IPASS RENAP" <info@ipass.com.gt>',
+    from: '"IPASS Honduras" <info@ipass.com.hd>',
     to: to,
     subject: subject,
     html: message

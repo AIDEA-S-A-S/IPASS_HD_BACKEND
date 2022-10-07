@@ -273,7 +273,7 @@ export const TemporarEventExpressMessage = async (event: IEventExpress) => {
       )
     }
 
-    console.log(phones)
+    //console.log(phones)
 
     phones.forEach(async phone => {
       const dataToSend = {

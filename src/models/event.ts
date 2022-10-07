@@ -11,6 +11,7 @@ const eventSchema: Schema = new Schema(
     location: { type: Schema.Types.ObjectId, ref: 'Location' },
     beforeStart: { type: Number },
     onlyAuthUser: Boolean,
+    contact: { type: Schema.Types.ObjectId, ref: 'Contact' },
     state: { type: String },
     deletedDate: { type: Date },
     whoDeleted: { type: Schema.Types.ObjectId, ref: 'User' },
