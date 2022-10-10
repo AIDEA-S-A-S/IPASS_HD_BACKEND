@@ -1,7 +1,7 @@
 import privilege from '../models/privilege'
 import { Expo, ExpoPushMessage } from 'expo-server-sdk'
 import { capitalize } from 'fogg-utils'
-import { IContact, IEventExpress, ILocation, IUser, IWorker } from 'interfaces'
+import { IContact, IEvent, IEventExpress, ILocation, IUser, IWorker } from 'interfaces'
 import users from '../models/users'
 import moment from 'moment-timezone'
 moment.locale('es')
@@ -48,6 +48,36 @@ export const NewEventExpress = async (
         title: 'IPASS HONDURAS',
         body: `Se ha creado una solicitud de Evento express para la locación ${location.name}`,
         data: { eventExpress: eventExpress._id }
+      }
+      messages.push(message)
+    })
+    try {
+      let chunks = expo.chunkPushNotifications(messages)
+      chunks.forEach(async chunk => {
+        let res = await expo.sendPushNotificationsAsync(chunk)
+        console.info(res)
+      })
+      resolve('ok')
+    } catch (error) {
+      console.error(error)
+      resolve(error)
+    }
+  })
+}
+
+export const NewEvent = async (tokens: any[], event: IEvent, location: ILocation) => {
+  return new Promise(async (resolve, reject) => {
+    let messages: ExpoPushMessage[] = []
+    tokens.forEach(token => {
+      if (!Expo.isExpoPushToken(token)) {
+        reject('Token Invalido')
+      }
+      const message: ExpoPushMessage = {
+        to: token,
+        sound: 'default',
+        title: 'IPASS HONDURAS',
+        body: `Se ha creado una solicitud de Evento para la locación ${location.name}`,
+        data: { event: event._id }
       }
       messages.push(message)
     })

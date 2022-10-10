@@ -16,7 +16,7 @@ import {
 import Language from '../lang'
 import users from '../models/users'
 import { clientWa } from './clientWa'
-import { NewEventExpress } from './pushNotifications'
+import { NewEvent, NewEventExpress } from './pushNotifications'
 
 const readHTMLFile = (path: string): string => {
   return fs.readFileSync(path, { encoding: 'utf-8' })
@@ -33,7 +33,7 @@ export const sendEmail = async (to: string, message: string, subject: string) =>
     }
   })
   await trasnporter.sendMail({
-    from: '"IPASS Honduras" <info@ipass.com.hd>',
+    from: '"IPASS Honduras" <info@ipass.com.gt>',
     to: to,
     subject: subject,
     html: message
@@ -61,7 +61,31 @@ export const messageNotifyExpressEvent = (
       <p>Apellidos: <strong>${contact.lastName}</strong></p>
       <p>Correo: <strong>${contact.email ? contact.email : 'No especificado'}</strong></p>
       <p>Teléfono: <strong>${contact.phone ? contact.phone : 'No especificado'}</strong></p>
-      <p>Motivo: <strong>${event.motivo}</strong></p>
+
+      <p>
+      Para aceptar la solicitud ingresar a la sección de Eventos express en la aplicación móvil o el panel web.
+      </p>
+    </body>
+  </html>`
+}
+
+export const messageNotifyEvent = (event: IEvent, location: ILocation, contact: IContact) => {
+  return `<!doctype html>
+  <html ⚡4email>
+    <head>
+      <meta charset="utf-8">
+      <script async src="https://cdn.ampproject.org/v0.js"></script>
+      <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+    </head>
+    <body>
+      <h2>Se ha creado una solicitud de Evento express para la locación: <strong>${
+        location.name
+      }</strong></h2>
+      <p>Información del visitante:</p>
+      <p>Nombres: <strong>${contact.firstName}</strong></p>
+      <p>Apellidos: <strong>${contact.lastName}</strong></p>
+      <p>Correo: <strong>${contact.email ? contact.email : 'No especificado'}</strong></p>
+      <p>Teléfono: <strong>${contact.phone ? contact.phone : 'No especificado'}</strong></p>
 
       <p>
       Para aceptar la solicitud ingresar a la sección de Eventos express en la aplicación móvil o el panel web.
@@ -314,18 +338,17 @@ export const sendEmailEventExpress = async (
         'Solicitud de evento express'
       )
     }
-
     // send chat aip
     phones.forEach(async phone => {
       const dataToSend = {
         body:
           `Hola, se ha creado una solicitud de evento express para la locacion: *${location.name}*\n\n` +
           `*Información del visitante*\n
-          Nombres: *${contact.firstName}*\n
-          Apellidos: *${contact.lastName}*\n
-          Correo: *${contact.email ? contact.email : 'No especificado'}*\n
-          Teléfono: *${contact.phone ? contact.phone : 'No especificado'}*\n
-          Motivo: *${newEventExpress.motivo}*\n\n` +
+      Nombres: *${contact.firstName}*\n
+      Apellidos: *${contact.lastName}*\n
+      Correo: *${contact.email ? contact.email : 'No especificado'}*\n
+      Teléfono: *${contact.phone ? contact.phone : 'No especificado'}*\n
+      Motivo: *${newEventExpress.motivo}*\n\n` +
           `Para aceptar la solicitud ingresar a la sección de Eventos express en la aplicación móvil o el panel web.`,
         phone: phone.charAt(0) === '+' ? phone : '+' + phone
       }
@@ -336,8 +359,60 @@ export const sendEmailEventExpress = async (
         console.log('no client')
       }
     })
+    //console.log('aqui')
 
     await NewEventExpress(tokens, newEventExpress, location)
+  } catch (error) {
+    console.log(error)
+    throw new Error(error)
+  }
+}
+
+export const sendEmailEvent = async (location: ILocation, newEvent: IEvent, contact: IContact) => {
+  try {
+    const idAdmins = (location.admins as IUser[]).map(e => e._id)
+    const hosts = await users.find({ admin: { $in: idAdmins } })
+    const emailsHosts = hosts.map(e => e.email)
+    const emailsAdmins = (location.admins as IUser[]).map(e => e.email)
+    const emails = [...emailsHosts, ...emailsAdmins].join(', ')
+    const phonesHosts = hosts.map(e => e?.phone)
+    const phonesAdmins = (location.admins as IUser[]).map(e => e?.phone)
+    const phones = [...phonesHosts, ...phonesAdmins]
+    const tokenHosts = hosts.filter(e => e.canAccessToApp && e.tokenExpo).map(e => e.tokenExpo)
+    const tokenAdmins = (location.admins as IUser[])
+      .filter(e => e.canAccessToApp && e.tokenExpo)
+      .map(e => e.tokenExpo)
+    const tokens = [...tokenHosts, ...tokenAdmins]
+    if (emailsHosts.length > 0 || emailsAdmins.length > 0) {
+      await sendEmail(
+        emails,
+        messageNotifyEvent(newEvent, location, contact),
+        'Solicitud de evento'
+      )
+    }
+
+    // send chat aip
+    phones.forEach(async phone => {
+      const dataToSend = {
+        body:
+          `Hola, se ha creado una solicitud de evento para la locacion: *${location.name}*\n\n` +
+          `*Información del visitante*\n
+      Nombres: *${contact.firstName}*\n
+      Apellidos: *${contact.lastName}*\n
+      Correo: *${contact.email ? contact.email : 'No especificado'}*\n
+      Teléfono: *${contact.phone ? contact.phone : 'No especificado'}*\n` +
+          `Para aceptar la solicitud ingresar a la sección de Eventos en la aplicación móvil o el panel web.`,
+        phone: phone.charAt(0) === '+' ? phone : '+' + phone
+      }
+      try {
+        const chatId = dataToSend.phone.substring(1) + '@c.us'
+        await clientWa.sendMessage(chatId, dataToSend.body)
+      } catch (error) {
+        console.log('no client')
+      }
+    })
+
+    await NewEvent(tokens, newEvent, location)
   } catch (error) {
     console.log(error)
     throw new Error(error)

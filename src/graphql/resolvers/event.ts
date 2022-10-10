@@ -1,11 +1,21 @@
-import { IContextGraphql, IEvent } from 'interfaces'
+import { IContact, IContextGraphql, IEvent, ILocation } from 'interfaces'
 import moment from 'moment-timezone'
 import { toUpdateSecurity } from '../../utils/subscriptions/sendPub'
 import Event from '../../models/event'
+import Contact from '../../models/contact'
+import Location from '../../models/location'
 import InvitationEvent from '../../models/InvitationEvent'
 import location from '../../models/location'
 import users from '../../models/users'
-import { getPermisionsFromToken, getUserFromToken } from '../../utils'
+import { clientWa } from '../../utils/clientWa'
+import Language from '../../lang'
+import {
+  getPermisionsFromToken,
+  getUserFromToken,
+  messageVerifiedContact,
+  sendEmail,
+  sendEmailEvent
+} from '../../utils'
 import { makeInvitation } from '../../utils/iniviteGuest'
 
 export const resolver = {
@@ -226,6 +236,35 @@ export const resolver = {
         newEvent.host = JSON.parse(JSON.stringify(user._id))
         newEvent.state = 'active'
         const saved = await newEvent.save()
+        const contact: IContact = JSON.parse(JSON.stringify(await Contact.findById(input.contact)))
+        const location: ILocation = JSON.parse(
+          JSON.stringify(await Location.findById(input.location).populate('admins'))
+        )
+        if (contact.email) {
+          await sendEmail(
+            contact.email,
+            messageVerifiedContact('es', contact._id),
+            Language.emailVerificationSubject['es']
+          )
+        }
+
+        context.client.set(contact._id, JSON.parse(JSON.stringify(newEvent._id)))
+
+        if (contact.indicativo && contact.phone) {
+          const dataToSend = {
+            body: `Se ha generado tu solicitud de ingreso a la Locación: *${location.name}*, para seguir con el proceso de solicitud, por favor realiza el proceso de verificación IPASS ingresando al siguente link: ${process.env.PANEL_URL}/es/verification?id=${contact._id}`,
+            phone: `${contact.indicativo}${contact.phone}`
+          }
+          try {
+            const chatId = dataToSend.phone.substring(1) + '@c.us'
+            await clientWa.sendMessage(chatId, dataToSend.body)
+          } catch (error) {
+            console.log(error)
+          }
+        }
+        // await Axios.post(process.env.API_URL_CHAT, dataToSend)
+        await sendEmailEvent(location, newEvent, contact)
+
         if (input.guests) {
           input.guests.forEach(async (guest: string) => {
             await makeInvitation({

@@ -90,33 +90,32 @@ export const resolver = {
         const location: ILocation = JSON.parse(
           JSON.stringify(await Location.findById(input.location).populate('admins'))
         )
-        if (!contact.verified) {
-          if (contact.email) {
-            await sendEmail(
-              contact.email,
-              messageVerifiedContact('es', contact._id),
-              Language.emailVerificationSubject['es']
-            )
-          }
 
-          context.client.set(contact._id, JSON.parse(JSON.stringify(newEventExpress._id)))
-
-          if (contact.indicativo && contact.phone) {
-            const dataToSend = {
-              body: `Se ha generado tu solicitud de ingreso a la Locación: *${location.name}*, para seguir con el proceso de solicitud, por favor realiza el proceso de verificación IPASS ingresando al siguente link: ${process.env.PANEL_URL}/es/verification?id=${contact._id}`,
-              phone: `${contact.indicativo}${contact.phone}`
-            }
-            try {
-              const chatId = dataToSend.phone.substring(1) + '@c.us'
-              await clientWa.sendMessage(chatId, dataToSend.body)
-            } catch (error) {
-              console.log(error)
-            }
-          }
-          // await Axios.post(process.env.API_URL_CHAT, dataToSend)
-        } else {
-          await sendEmailEventExpress(location, newEventExpress, contact)
+        if (contact.email) {
+          await sendEmail(
+            contact.email,
+            messageVerifiedContact('es', contact._id),
+            Language.emailVerificationSubject['es']
+          )
         }
+
+        context.client.set(contact._id, JSON.parse(JSON.stringify(newEventExpress._id)))
+
+        if (contact.indicativo && contact.phone) {
+          const dataToSend = {
+            body: `Se ha generado tu solicitud de ingreso a la Locación: *${location.name}*, para seguir con el proceso de solicitud, por favor realiza el proceso de verificación IPASS ingresando al siguente link: ${process.env.PANEL_URL}/es/verification?id=${contact._id}`,
+            phone: `${contact.indicativo}${contact.phone}`
+          }
+          try {
+            const chatId = dataToSend.phone.substring(1) + '@c.us'
+            await clientWa.sendMessage(chatId, dataToSend.body)
+          } catch (error) {
+            console.log(error)
+          }
+        }
+        // await Axios.post(process.env.API_URL_CHAT, dataToSend)
+        await sendEmailEventExpress(location, newEventExpress, contact)
+
         updateEventExpress()
         return await newEventExpress.save()
       } catch (error) {
