@@ -15,6 +15,7 @@ const eventSchema: Schema = new Schema(
     state: { type: String },
     deletedDate: { type: Date },
     whoDeleted: { type: Schema.Types.ObjectId, ref: 'User' },
+    createdBy: { type: Schema.Types.ObjectId, ref: 'User' },
     open: { type: Boolean, default: false }
   },
 

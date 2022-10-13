@@ -232,20 +232,32 @@ export const resolver = {
     async createEvent(_: any, { input }: any, context: IContextGraphql) {
       try {
         const newEvent = new Event(input)
+        console.log(input)
         const user = await getUserFromToken(context.req.tokenAuth as string)
         newEvent.host = JSON.parse(JSON.stringify(user._id))
         newEvent.state = 'active'
         const saved = await newEvent.save()
+
+        // console.log(input.contact)
+        // if (input.contact) {
+        //   await makeInvitation({
+        //     event: newEvent._id,
+        //     contact: input.contact._id,
+        //     confirmed: false,
+        //     alreadySendInvitation: true
+        //   })
+        // }
         if (input.guests) {
           input.guests.forEach(async (guest: string) => {
             await makeInvitation({
               event: newEvent._id,
               contact: guest,
-              confirmed: false,
+              confirmed: true,
               alreadySendInvitation: true
             })
           })
         }
+
         // const contact: IContact = JSON.parse(JSON.stringify(await Contact.findById(input.contact)))
         // const location: ILocation = JSON.parse(
         //   JSON.stringify(await Location.findById(input.location).populate('admins'))

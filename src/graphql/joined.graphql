@@ -613,6 +613,8 @@ type Event {
   state: String
   deletedDate: DateTime
   invitations: [InvitationEvent]
+  contact: Contact
+  createdBy: User
   whoDeleted: User
   open: Boolean
 }
@@ -635,6 +637,7 @@ input EventInput {
   location: String
   beforeStart: Int
   onlyAuthUser: Boolean
+  createdBy: String
   guests: [ID]
   open: Boolean
 }

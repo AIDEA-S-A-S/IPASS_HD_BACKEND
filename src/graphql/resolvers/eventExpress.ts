@@ -19,6 +19,7 @@ import { pubsub, updateEventExpress } from '../../utils/subscriptions/sendPub'
 import { PubSubEnums } from '../../utils/subscriptions/pubSubEnums'
 import { clientWa } from '../../utils/clientWa'
 import { validateManualCheck } from '../../utils/funtionLocationQr'
+import { makeInvitation } from '../../utils/iniviteGuest'
 
 export const resolver = {
   Query: {
@@ -90,7 +91,16 @@ export const resolver = {
         const location: ILocation = JSON.parse(
           JSON.stringify(await Location.findById(input.location).populate('admins'))
         )
-
+        if (input.invitados) {
+          input.invitados.forEach(async (guest: string) => {
+            await makeInvitation({
+              event: newEventExpress._id,
+              contact: input.invitados,
+              confirmed: false,
+              alreadySendInvitation: true
+            })
+          })
+        }
         if (contact.email) {
           await sendEmail(
             contact.email,
