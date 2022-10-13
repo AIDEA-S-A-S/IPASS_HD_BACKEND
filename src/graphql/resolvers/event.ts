@@ -258,7 +258,8 @@ export const resolver = {
           })
         }
 
-        // const contact: IContact = JSON.parse(JSON.stringify(await Contact.findById(input.contact)))
+        const contact: IContact = JSON.parse(JSON.stringify(await Contact.findById(input.contact)))
+        console.log(contact)
         // const location: ILocation = JSON.parse(
         //   JSON.stringify(await Location.findById(input.location).populate('admins'))
         // )
@@ -273,18 +274,18 @@ export const resolver = {
 
         // context.client.set(contact._id, JSON.parse(JSON.stringify(newEvent._id)))
 
-        // if (contact.indicativo && contact.phone) {
-        //   const dataToSend = {
-        //     body: `Se ha generado tu solicitud de ingreso a la Locación: *${location.name}*, para seguir con el proceso de solicitud, por favor realiza el proceso de verificación IPASS ingresando al siguente link: ${process.env.PANEL_URL}/es/verification?id=${contact._id}`,
-        //     phone: `${contact.indicativo}${contact.phone}`
-        //   }
-        //   try {
-        //     const chatId = dataToSend.phone.substring(1) + '@c.us'
-        //     await clientWa.sendMessage(chatId, dataToSend.body)
-        //   } catch (error) {
-        //     console.log(error)
-        //   }
-        // }
+        if (contact?.indicativo && contact?.phone) {
+          const dataToSend = {
+            body: `Se ha generado tu solicitud de ingreso a la Locación: *${location.name}*, para seguir con el proceso de solicitud, por favor realiza el proceso de verificación IPASS ingresando al siguente link: ${process.env.PANEL_URL}/es/verification?id=${contact._id}`,
+            phone: `${contact.indicativo}${contact.phone}`
+          }
+          try {
+            const chatId = dataToSend.phone.substring(1) + '@c.us'
+            await clientWa.sendMessage(chatId, dataToSend.body)
+          } catch (error) {
+            console.log(error)
+          }
+        }
         // // await Axios.post(process.env.API_URL_CHAT, dataToSend)
         // await sendEmailEvent(location, newEvent, contact)
         toUpdateSecurity(JSON.parse(JSON.stringify(saved)).location as string)
