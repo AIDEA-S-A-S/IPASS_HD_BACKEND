@@ -236,6 +236,7 @@ type Mutation {
   setPushToken(_id: String, token: String, type: String): Boolean
   resetToken(_id: String, type: String): Boolean
   deleteUserAll: Boolean
+  fixUserPhone: [User]
   createVisitorBrand(input: VisitorBrandInput): VisitorBrand
   updateVisitorBrand(input: updateVisitorBrandInput): VisitorBrand
   deleteVisitorBrand(input: deleteVisitorBrandInput): deleteVisitorBrand
@@ -421,6 +422,7 @@ type Contact {
   firstName: String
   lastName: String
   email: String
+  indicativo: String
   phone: String
   nickname: String
   host: User
@@ -432,7 +434,6 @@ type Contact {
   createdAt: DateTime
   updatedAt: DateTime
   empresa: String
-  indicativo: String
   DPI: String
   verificationRegistro: Boolean
 }
@@ -613,15 +614,12 @@ type Event {
   state: String
   deletedDate: DateTime
   invitations: [InvitationEvent]
-  contact: Contact
-  createdBy: User
   whoDeleted: User
   open: Boolean
 }
 
 input AcceptRejectEventInput {
   confirm: Boolean
-  contact: String
   Event: String
 }
 
@@ -637,7 +635,6 @@ input EventInput {
   location: String
   beforeStart: Int
   onlyAuthUser: Boolean
-  createdBy: String
   guests: [ID]
   open: Boolean
 }
@@ -1453,6 +1450,7 @@ type User {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [GroupWorker]
@@ -1501,6 +1499,7 @@ input userInput {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [String]
@@ -1536,6 +1535,7 @@ input updateUserInput {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [String]

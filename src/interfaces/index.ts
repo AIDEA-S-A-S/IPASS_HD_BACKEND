@@ -83,6 +83,7 @@ export interface IUser extends Document {
   canUseAuthenticator?: boolean
   code: boolean
   phone: string
+  indicativo: string
   QR: string
   group: IGroupWorker[] | string[]
   timeZone: iTimeZone[] | string[]
@@ -246,6 +247,7 @@ export interface IEvent extends Document {
   beforeStart: number
   onlyAuthUser: boolean
   state: string
+  contact: IUser | string
   deletedDate: string
   whoDeleted: IUser | string
   open: boolean

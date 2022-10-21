@@ -204,6 +204,27 @@ export const resolver = {
     async deleteUserAll(_: any, { input }: any) {
       return await User.remove({})
     },
+
+    async fixUserPhone(_: any, { __ }: any) {
+      const users = await User.find({})
+
+      users.forEach(async user => {
+        if (user.phone.includes('+502')) {
+          user.indicativo = '+502'
+          user.phone = user.phone.replace('+502', '')
+        } else if (user.phone.includes('+504')) {
+          user.indicativo = '+504'
+          user.phone = user.phone.replace('+504', '')
+        } else if (user.phone.includes('+57')) {
+          user.indicativo = '+57'
+          user.phone = user.phone.replace('+57', '')
+        }
+
+        await user.save()
+      })
+
+      return users
+    },
     async setPushToken(_: any, { _id, token, type }: any) {
       try {
         if (type === 'worker') await worker.findByIdAndUpdate(_id, { $set: { tokenExpo: token } })

@@ -3,6 +3,7 @@ type Contact {
   firstName: String
   lastName: String
   email: String
+  indicativo: String
   phone: String
   nickname: String
   host: User
@@ -14,7 +15,6 @@ type Contact {
   createdAt: DateTime
   updatedAt: DateTime
   empresa: String
-  indicativo: String
   DPI: String
   verificationRegistro: Boolean
 }

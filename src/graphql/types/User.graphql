@@ -24,6 +24,7 @@ type User {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [GroupWorker]
@@ -76,6 +77,7 @@ type Mutation {
   setPushToken(_id: String, token: String, type: String): Boolean
   resetToken(_id: String, type: String): Boolean
   deleteUserAll: Boolean
+  fixUserPhone: [User]
 }
 
 type Subscription {
@@ -102,6 +104,7 @@ input userInput {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [String]
@@ -137,6 +140,7 @@ input updateUserInput {
   document: String
   typeDocument: String
   code: Boolean
+  indicativo: String
   phone: String
   QR: String
   group: [String]

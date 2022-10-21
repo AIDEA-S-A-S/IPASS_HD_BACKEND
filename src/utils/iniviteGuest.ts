@@ -203,8 +203,8 @@ export const TemporarEventExpressMessage = async (event: IEventExpress) => {
     const emailsHosts = hosts.map(e => e.email)
     const emailsAdmins = (location.admins as IUser[]).map(e => e.email)
     const emails = [...emailsHosts, ...emailsAdmins].join(', ')
-    const phonesHosts = hosts.map(e => e.phone)
-    const phonesAdmins = (location.admins as IUser[]).map(e => e.phone)
+    const phonesHosts = hosts.map(e => e?.indicativo + e?.phone)
+    const phonesAdmins = (location.admins as IUser[]).map(e => e?.indicativo + e?.phone)
     const phones = [...phonesHosts, ...phonesAdmins]
     const tokenHosts = hosts.filter(e => e.canAccessToApp && e.tokenExpo).map(e => e.tokenExpo)
     const tokenAdmins = location.admins as IUser[]

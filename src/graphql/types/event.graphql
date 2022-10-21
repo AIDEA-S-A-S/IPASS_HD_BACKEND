@@ -12,8 +12,7 @@ type Event {
   state: String
   deletedDate: DateTime
   invitations: [InvitationEvent]
-  contact: Contact
-  createdBy: User
+  # contact: Contact
   whoDeleted: User
   open: Boolean
 }
@@ -44,7 +43,7 @@ type Mutation {
 
 input AcceptRejectEventInput {
   confirm: Boolean
-  contact: String
+  # contact: String
   Event: String
 }
 
@@ -60,7 +59,6 @@ input EventInput {
   location: String
   beforeStart: Int
   onlyAuthUser: Boolean
-  createdBy: String
   guests: [ID]
   open: Boolean
 }

@@ -39,6 +39,7 @@ const userSchema: Schema = new Schema(
     document: { type: String, unique: true },
     typeDocument: String,
     code: Boolean,
+    indicativo: { type: String },
     phone: String,
     QR: String,
     temporal_Qr: {

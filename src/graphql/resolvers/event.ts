@@ -232,7 +232,9 @@ export const resolver = {
     async createEvent(_: any, { input }: any, context: IContextGraphql) {
       try {
         const newEvent = new Event(input)
+
         console.log(input)
+
         const user = await getUserFromToken(context.req.tokenAuth as string)
         newEvent.host = JSON.parse(JSON.stringify(user._id))
         newEvent.state = 'active'
