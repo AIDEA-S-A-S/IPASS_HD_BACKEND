@@ -117,7 +117,7 @@ export const resolver = {
         newContact.verified = false
         const saved = await newContact.save()
         try {
-          if (input.verificationRegistro && newContact.email) {
+          if (!input.verificationRegistro && newContact.email) {
             await sendEmail(
               newContact.email,
               messageVerifiedContact('es', saved._id),
