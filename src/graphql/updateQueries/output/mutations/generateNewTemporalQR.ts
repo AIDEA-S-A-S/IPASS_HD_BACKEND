@@ -62,6 +62,7 @@ export const generateNewTemporalQR = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -91,6 +92,7 @@ export const generateNewTemporalQR = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -120,6 +122,7 @@ export const generateNewTemporalQR = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -166,6 +169,7 @@ export const generateNewTemporalQR = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

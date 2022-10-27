@@ -79,6 +79,7 @@ module.exports.listPrivilege = fs.readFileSync(path.join(__dirname, 'listPrivile
 module.exports.getPrivilege = fs.readFileSync(path.join(__dirname, 'getPrivilege.ts'), 'utf8');
 module.exports.listRisk = fs.readFileSync(path.join(__dirname, 'listRisk.ts'), 'utf8');
 module.exports.getRisk = fs.readFileSync(path.join(__dirname, 'getRisk.ts'), 'utf8');
+module.exports.listRiskLayers = fs.readFileSync(path.join(__dirname, 'listRiskLayers.ts'), 'utf8');
 module.exports.listRiskReset = fs.readFileSync(path.join(__dirname, 'listRiskReset.ts'), 'utf8');
 module.exports.getRiskReset = fs.readFileSync(path.join(__dirname, 'getRiskReset.ts'), 'utf8');
 module.exports.listSection = fs.readFileSync(path.join(__dirname, 'listSection.ts'), 'utf8');

@@ -8,6 +8,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -16,7 +17,6 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -66,6 +66,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -121,6 +122,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

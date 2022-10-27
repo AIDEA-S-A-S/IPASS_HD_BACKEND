@@ -5,6 +5,11 @@ import { typeQr } from './valuesAddQr'
 // @ts-ignore
 import { RedisClient } from 'redis'
 
+export interface IRiskLayers {
+  layer: string
+  tolerance: number
+}
+
 export interface IWorker_qr_temporal extends Document {
   worker: IWorker
   user: IUser

@@ -26,6 +26,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -85,6 +86,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -101,6 +103,7 @@ export const createInvitationEvent = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -123,6 +126,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -165,7 +169,6 @@ export const createInvitationEvent = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -213,6 +216,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -233,6 +237,7 @@ export const createInvitationEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -337,6 +342,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -366,6 +372,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -395,6 +402,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -441,6 +449,7 @@ export const createInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

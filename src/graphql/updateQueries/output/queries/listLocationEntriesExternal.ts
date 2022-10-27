@@ -7,6 +7,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -29,6 +30,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -71,7 +73,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -132,6 +133,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -161,6 +163,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -190,6 +193,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -236,6 +240,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -270,6 +275,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -329,6 +335,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -381,6 +388,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -401,6 +409,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -560,6 +569,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -580,6 +590,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -689,6 +700,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -721,6 +733,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -729,7 +742,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -754,6 +766,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -768,6 +781,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -776,7 +790,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }

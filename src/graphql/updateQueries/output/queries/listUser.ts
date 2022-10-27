@@ -40,6 +40,7 @@ export const listUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -60,6 +61,7 @@ export const listUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

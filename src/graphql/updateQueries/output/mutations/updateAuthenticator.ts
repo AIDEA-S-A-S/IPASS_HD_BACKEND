@@ -126,6 +126,7 @@ export const updateAuthenticator = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -146,6 +147,7 @@ export const updateAuthenticator = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

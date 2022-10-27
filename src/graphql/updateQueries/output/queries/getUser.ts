@@ -65,6 +65,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -85,6 +86,7 @@ export const getUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -142,6 +144,7 @@ export const getUser = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -218,6 +221,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -247,6 +251,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -276,6 +281,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -322,6 +328,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

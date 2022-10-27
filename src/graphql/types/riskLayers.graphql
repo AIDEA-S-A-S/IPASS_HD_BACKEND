@@ -1,0 +1,37 @@
+type RiskLayers {
+  _id: ID
+  layer: String
+  tolerance: Int
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type Mutation {
+  createRiskLayers(input: RiskLayersInput): RiskLayers
+  updateRiskLayers(input: updateRiskLayersInput): RiskLayers
+  deleteRiskLayers(input: deleteRiskLayersInput): deleteRiskLayers
+  deleteRiskLayersAll(input: deleteRiskLayersInput): Boolean
+}
+
+type Query {
+  listRiskLayers: [RiskLayers]
+}
+
+type deleteRiskLayers {
+  _id: ID
+}
+
+input RiskLayersInput {
+  layer: String
+  tolerance: Int
+}
+
+input updateRiskLayersInput {
+  _id: ID
+  layer: String
+  tolerance: Int
+}
+
+input deleteRiskLayersInput {
+  _id: ID
+}

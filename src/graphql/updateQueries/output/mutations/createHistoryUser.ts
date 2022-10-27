@@ -61,6 +61,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -128,6 +129,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -157,6 +159,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -186,6 +189,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -232,6 +236,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -281,6 +286,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -301,6 +307,7 @@ export const createHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -390,6 +397,7 @@ export const createHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -410,6 +418,7 @@ export const createHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

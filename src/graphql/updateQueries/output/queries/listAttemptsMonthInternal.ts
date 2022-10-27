@@ -115,6 +115,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -135,6 +136,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -187,6 +189,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -209,6 +212,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -251,7 +255,6 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -312,6 +315,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -341,6 +345,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -370,6 +375,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -416,6 +422,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

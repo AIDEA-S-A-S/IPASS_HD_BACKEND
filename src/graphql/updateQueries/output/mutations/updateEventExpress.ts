@@ -42,6 +42,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -62,6 +63,7 @@ export const updateEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -167,6 +169,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -196,6 +199,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -225,6 +229,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -271,6 +276,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -291,6 +297,7 @@ export const updateEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -313,6 +320,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -355,7 +363,6 @@ export const updateEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -399,6 +406,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -419,6 +427,7 @@ export const updateEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -470,6 +479,7 @@ export const updateEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -492,6 +502,7 @@ export const updateEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -534,7 +545,6 @@ export const updateEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }

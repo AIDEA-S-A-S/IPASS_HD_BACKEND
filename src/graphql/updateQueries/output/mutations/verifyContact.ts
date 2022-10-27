@@ -5,6 +5,7 @@ export const verifyContact = /* GraphQL */`
         firstName
         lastName
         email
+        indicativo
         phone
         nickname
         host{
@@ -46,6 +47,7 @@ export const verifyContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -66,6 +68,7 @@ export const verifyContact = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -145,7 +148,6 @@ export const verifyContact = /* GraphQL */`
         createdAt
         updatedAt
         empresa
-        indicativo
         DPI
         verificationRegistro
     }

@@ -61,6 +61,7 @@ export const updateMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -90,6 +91,7 @@ export const updateMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -119,6 +121,7 @@ export const updateMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -165,6 +168,7 @@ export const updateMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -220,6 +224,7 @@ export const updateMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -240,6 +245,7 @@ export const updateMasterLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

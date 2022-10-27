@@ -88,6 +88,7 @@ type Query {
   getPrivilege(_id: String): Privilege
   listRisk: [Risk] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getRisk(_id: String): Risk
+  listRiskLayers: [RiskLayers]
   listRiskReset: [RiskReset] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
   getRiskReset(_id: String): RiskReset
   listSection: [Section] @rateLimit(window: "10s", max: 10, message: "You are doing that too often.")
@@ -217,6 +218,10 @@ type Mutation {
   deleteRisk(input: deleteRiskInput): deleteRisk
   deleteRiskAll(input: deleteRiskInput): deleteRisk
   callRisk(input: callRiskInput): Boolean
+  createRiskLayers(input: RiskLayersInput): RiskLayers
+  updateRiskLayers(input: updateRiskLayersInput): RiskLayers
+  deleteRiskLayers(input: deleteRiskLayersInput): deleteRiskLayers
+  deleteRiskLayersAll(input: deleteRiskLayersInput): Boolean
   createRiskReset(input: RiskResetInput): RiskReset
   updateRiskReset(input: updateRiskResetInput): RiskReset
   deleteRiskReset(input: deleteRiskResetInput): deleteRiskReset
@@ -1324,6 +1329,33 @@ input updateRiskInput {
 }
 
 input deleteRiskInput {
+  _id: ID
+}
+
+type RiskLayers {
+  _id: ID
+  layer: String
+  tolerance: Int
+  createdAt: DateTime
+  updatedAt: DateTime
+}
+
+type deleteRiskLayers {
+  _id: ID
+}
+
+input RiskLayersInput {
+  layer: String
+  tolerance: Int
+}
+
+input updateRiskLayersInput {
+  _id: ID
+  layer: String
+  tolerance: Int
+}
+
+input deleteRiskLayersInput {
   _id: ID
 }
 

@@ -59,6 +59,7 @@ export const filterLocationEntries = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -81,6 +82,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -123,7 +125,6 @@ export const filterLocationEntries = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -184,6 +185,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -213,6 +215,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -242,6 +245,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -288,6 +292,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -322,6 +327,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -381,6 +387,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -433,6 +440,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -453,6 +461,7 @@ export const filterLocationEntries = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -612,6 +621,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -632,6 +642,7 @@ export const filterLocationEntries = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -741,6 +752,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -773,6 +785,7 @@ export const filterLocationEntries = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -781,7 +794,6 @@ export const filterLocationEntries = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -806,6 +818,7 @@ export const filterLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -820,6 +833,7 @@ export const filterLocationEntries = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -828,7 +842,6 @@ export const filterLocationEntries = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -849,6 +862,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -871,6 +885,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -913,7 +928,6 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -974,6 +988,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1003,6 +1018,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1032,6 +1048,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1078,6 +1095,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1112,6 +1130,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1171,6 +1190,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1223,6 +1243,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1243,6 +1264,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -1402,6 +1424,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1422,6 +1445,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -1531,6 +1555,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1563,6 +1588,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -1571,7 +1597,6 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -1596,6 +1621,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1610,6 +1636,7 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -1618,7 +1645,6 @@ export const filterLocationEntriesSecurity = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -1834,6 +1860,7 @@ export const getAuthenticator = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -1854,6 +1881,7 @@ export const getAuthenticator = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -1971,6 +1999,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2000,6 +2029,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2029,6 +2059,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2075,6 +2106,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2164,6 +2196,7 @@ export const getBreach = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -2186,6 +2219,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2228,7 +2262,6 @@ export const getBreach = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -2271,6 +2304,7 @@ export const getBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2291,6 +2325,7 @@ export const getBreach = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -2354,6 +2389,7 @@ export const getContact = /* GraphQL */`
         firstName
         lastName
         email
+        indicativo
         phone
         nickname
         host{
@@ -2395,6 +2431,7 @@ export const getContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2415,6 +2452,7 @@ export const getContact = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -2494,7 +2532,6 @@ export const getContact = /* GraphQL */`
         createdAt
         updatedAt
         empresa
-        indicativo
         DPI
         verificationRegistro
     }
@@ -2566,6 +2603,7 @@ export const getDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2595,6 +2633,7 @@ export const getDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2624,6 +2663,7 @@ export const getDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2670,6 +2710,7 @@ export const getDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2731,6 +2772,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2751,6 +2793,7 @@ export const getEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -2855,6 +2898,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2884,6 +2928,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2913,6 +2958,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2959,6 +3005,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -2995,6 +3042,7 @@ export const getEvent = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -3003,7 +3051,6 @@ export const getEvent = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -3032,6 +3079,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3096,6 +3144,7 @@ export const getEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3116,6 +3165,7 @@ export const getEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -3194,6 +3244,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3253,6 +3304,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3269,6 +3321,7 @@ export const getEventContact = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -3291,6 +3344,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3333,7 +3387,6 @@ export const getEventContact = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -3381,6 +3434,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3401,6 +3455,7 @@ export const getEventContact = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -3505,6 +3560,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3534,6 +3590,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3563,6 +3620,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3609,6 +3667,7 @@ export const getEventContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3669,6 +3728,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3689,6 +3749,7 @@ export const getEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -3794,6 +3855,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3823,6 +3885,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3852,6 +3915,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3898,6 +3962,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3918,6 +3983,7 @@ export const getEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -3940,6 +4006,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -3982,7 +4049,6 @@ export const getEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -4026,6 +4092,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4046,6 +4113,7 @@ export const getEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -4097,6 +4165,7 @@ export const getEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -4119,6 +4188,7 @@ export const getEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4161,7 +4231,6 @@ export const getEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -4239,6 +4308,7 @@ export const getGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4268,6 +4338,7 @@ export const getGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4297,6 +4368,7 @@ export const getGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4343,6 +4415,7 @@ export const getGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4421,6 +4494,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4488,6 +4562,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4517,6 +4592,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4546,6 +4622,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4592,6 +4669,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4641,6 +4719,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4661,6 +4740,7 @@ export const getHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -4750,6 +4830,7 @@ export const getHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4770,6 +4851,7 @@ export const getHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -4849,6 +4931,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4908,6 +4991,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4924,6 +5008,7 @@ export const getInvitationEvent = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -4946,6 +5031,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -4988,7 +5074,6 @@ export const getInvitationEvent = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -5036,6 +5121,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5056,6 +5142,7 @@ export const getInvitationEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -5160,6 +5247,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5189,6 +5277,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5218,6 +5307,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5264,6 +5354,7 @@ export const getInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5325,6 +5416,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5392,6 +5484,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5421,6 +5514,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5450,6 +5544,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5496,6 +5591,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5563,6 +5659,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5592,6 +5689,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5621,6 +5719,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5667,6 +5766,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5718,6 +5818,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5738,6 +5839,7 @@ export const getLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -5823,6 +5925,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5843,6 +5946,7 @@ export const getLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -5928,6 +6032,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -5948,6 +6053,7 @@ export const getLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -6061,6 +6167,7 @@ export const getLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6081,6 +6188,7 @@ export const getLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -6247,6 +6355,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6267,6 +6376,7 @@ export const getLocationAttempt = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -6319,6 +6429,7 @@ export const getLocationAttempt = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -6341,6 +6452,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6383,7 +6495,6 @@ export const getLocationAttempt = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -6444,6 +6555,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6473,6 +6585,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6502,6 +6615,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6548,6 +6662,7 @@ export const getLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6630,6 +6745,7 @@ export const getLocationBySerialNumber = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6659,6 +6775,7 @@ export const getLocationBySerialNumber = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6688,6 +6805,7 @@ export const getLocationBySerialNumber = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6734,6 +6852,7 @@ export const getLocationBySerialNumber = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6759,6 +6878,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -6781,6 +6901,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6823,7 +6944,6 @@ export const getLocationEntriesByLocation = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -6884,6 +7004,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6913,6 +7034,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6942,6 +7064,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -6988,6 +7111,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7022,6 +7146,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7081,6 +7206,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7133,6 +7259,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7153,6 +7280,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -7312,6 +7440,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7332,6 +7461,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -7441,6 +7571,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7473,6 +7604,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -7481,7 +7613,6 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -7506,6 +7637,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7520,6 +7652,7 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -7528,7 +7661,6 @@ export const getLocationEntriesByLocation = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -7585,6 +7717,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7652,6 +7785,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7681,6 +7815,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7710,6 +7845,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7756,6 +7892,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7823,6 +7960,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7852,6 +7990,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7881,6 +8020,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7927,6 +8067,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7978,6 +8119,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -7998,6 +8140,7 @@ export const getLocationSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -8083,6 +8226,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8103,6 +8247,7 @@ export const getLocationSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -8188,6 +8333,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8208,6 +8354,7 @@ export const getLocationSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -8321,6 +8468,7 @@ export const getLocationSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8341,6 +8489,7 @@ export const getLocationSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -8435,6 +8584,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8502,6 +8652,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8531,6 +8682,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8560,6 +8712,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8606,6 +8759,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8673,6 +8827,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8702,6 +8857,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8731,6 +8887,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8777,6 +8934,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8828,6 +8986,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8848,6 +9007,7 @@ export const getLocationsByMaster = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -8933,6 +9093,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -8953,6 +9114,7 @@ export const getLocationsByMaster = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -9038,6 +9200,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9058,6 +9221,7 @@ export const getLocationsByMaster = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -9171,6 +9335,7 @@ export const getLocationsByMaster = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9191,6 +9356,7 @@ export const getLocationsByMaster = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -9303,6 +9469,7 @@ export const getMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9332,6 +9499,7 @@ export const getMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9361,6 +9529,7 @@ export const getMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9407,6 +9576,7 @@ export const getMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9462,6 +9632,7 @@ export const getMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9482,6 +9653,7 @@ export const getMasterLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -9657,6 +9829,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9677,6 +9850,7 @@ export const getUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -9734,6 +9908,7 @@ export const getUser = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -9810,6 +9985,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9839,6 +10015,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9868,6 +10045,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -9914,6 +10092,7 @@ export const getUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10020,6 +10199,7 @@ export const getUserHost = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10040,6 +10220,7 @@ export const getUserHost = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -10097,6 +10278,7 @@ export const getUserHost = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -10173,6 +10355,7 @@ export const getUserHost = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10202,6 +10385,7 @@ export const getUserHost = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10231,6 +10415,7 @@ export const getUserHost = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10277,6 +10462,7 @@ export const getUserHost = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10383,6 +10569,7 @@ export const getUsersAdmin = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10403,6 +10590,7 @@ export const getUsersAdmin = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -10460,6 +10648,7 @@ export const getUsersAdmin = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -10536,6 +10725,7 @@ export const getUsersAdmin = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10565,6 +10755,7 @@ export const getUsersAdmin = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10594,6 +10785,7 @@ export const getUsersAdmin = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10640,6 +10832,7 @@ export const getUsersAdmin = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10746,6 +10939,7 @@ export const getUsersSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10766,6 +10960,7 @@ export const getUsersSecurity = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -10823,6 +11018,7 @@ export const getUsersSecurity = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -10899,6 +11095,7 @@ export const getUsersSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10928,6 +11125,7 @@ export const getUsersSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -10957,6 +11155,7 @@ export const getUsersSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11003,6 +11202,7 @@ export const getUsersSecurity = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11204,6 +11404,7 @@ export const getWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11233,6 +11434,7 @@ export const getWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11262,6 +11464,7 @@ export const getWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11308,6 +11511,7 @@ export const getWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11395,6 +11599,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11415,6 +11620,7 @@ export const listAllEventsActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -11519,6 +11725,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11548,6 +11755,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11577,6 +11785,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11623,6 +11832,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11659,6 +11869,7 @@ export const listAllEventsActive = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -11667,7 +11878,6 @@ export const listAllEventsActive = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -11696,6 +11906,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11760,6 +11971,7 @@ export const listAllEventsActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11780,6 +11992,7 @@ export const listAllEventsActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -11897,6 +12110,7 @@ export const listAllUsers = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -11917,6 +12131,7 @@ export const listAllUsers = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -11974,6 +12189,7 @@ export const listAllUsers = /* GraphQL */`
         document
         typeDocument
         code
+        indicativo
         phone
         QR
         group{
@@ -12050,6 +12266,7 @@ export const listAllUsers = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12079,6 +12296,7 @@ export const listAllUsers = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12108,6 +12326,7 @@ export const listAllUsers = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12154,6 +12373,7 @@ export const listAllUsers = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12324,6 +12544,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12344,6 +12565,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -12396,6 +12618,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -12418,6 +12641,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12460,7 +12684,6 @@ export const listAttemptsAllExternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -12521,6 +12744,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12550,6 +12774,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12579,6 +12804,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12625,6 +12851,7 @@ export const listAttemptsAllExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12758,6 +12985,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12778,6 +13006,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -12830,6 +13059,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -12852,6 +13082,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12894,7 +13125,6 @@ export const listAttemptsAllInternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -12955,6 +13185,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -12984,6 +13215,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13013,6 +13245,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13059,6 +13292,7 @@ export const listAttemptsAllInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13192,6 +13426,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13212,6 +13447,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -13264,6 +13500,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -13286,6 +13523,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13328,7 +13566,6 @@ export const listAttemptsMonthExternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -13389,6 +13626,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13418,6 +13656,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13447,6 +13686,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13493,6 +13733,7 @@ export const listAttemptsMonthExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13626,6 +13867,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13646,6 +13888,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -13698,6 +13941,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -13720,6 +13964,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13762,7 +14007,6 @@ export const listAttemptsMonthInternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -13823,6 +14067,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13852,6 +14097,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13881,6 +14127,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -13927,6 +14174,7 @@ export const listAttemptsMonthInternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14060,6 +14308,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14080,6 +14329,7 @@ export const listAttemptsToday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -14132,6 +14382,7 @@ export const listAttemptsToday = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -14154,6 +14405,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14196,7 +14448,6 @@ export const listAttemptsToday = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -14257,6 +14508,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14286,6 +14538,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14315,6 +14568,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14361,6 +14615,7 @@ export const listAttemptsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14494,6 +14749,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14514,6 +14770,7 @@ export const listAttemptsYesterday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -14566,6 +14823,7 @@ export const listAttemptsYesterday = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -14588,6 +14846,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14630,7 +14889,6 @@ export const listAttemptsYesterday = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -14691,6 +14949,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14720,6 +14979,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14749,6 +15009,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14795,6 +15056,7 @@ export const listAttemptsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14873,6 +15135,7 @@ export const listAuthenticator = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14968,6 +15231,7 @@ export const listAvailableDevices = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -14997,6 +15261,7 @@ export const listAvailableDevices = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15026,6 +15291,7 @@ export const listAvailableDevices = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15072,6 +15338,7 @@ export const listAvailableDevices = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15150,6 +15417,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15179,6 +15447,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15208,6 +15477,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15254,6 +15524,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15343,6 +15614,7 @@ export const listBreach = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -15365,6 +15637,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15407,7 +15680,6 @@ export const listBreach = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -15450,6 +15722,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15470,6 +15743,7 @@ export const listBreach = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -15583,6 +15857,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15612,6 +15887,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15641,6 +15917,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15687,6 +15964,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15776,6 +16054,7 @@ export const listBreachLast2Days = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -15798,6 +16077,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15840,7 +16120,6 @@ export const listBreachLast2Days = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -15883,6 +16162,7 @@ export const listBreachLast2Days = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -15903,6 +16183,7 @@ export const listBreachLast2Days = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -16002,6 +16283,7 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -16010,7 +16292,6 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -16034,6 +16315,7 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16066,6 +16348,7 @@ export const listContact = /* GraphQL */`
         firstName
         lastName
         email
+        indicativo
         phone
         nickname
         host{
@@ -16107,6 +16390,7 @@ export const listContact = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16127,6 +16411,7 @@ export const listContact = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -16206,7 +16491,6 @@ export const listContact = /* GraphQL */`
         createdAt
         updatedAt
         empresa
-        indicativo
         DPI
         verificationRegistro
     }
@@ -16219,6 +16503,7 @@ export const listContactWithOutVerify = /* GraphQL */`
         firstName
         lastName
         email
+        indicativo
         phone
         nickname
         host{
@@ -16260,6 +16545,7 @@ export const listContactWithOutVerify = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16280,6 +16566,7 @@ export const listContactWithOutVerify = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -16359,7 +16646,6 @@ export const listContactWithOutVerify = /* GraphQL */`
         createdAt
         updatedAt
         empresa
-        indicativo
         DPI
         verificationRegistro
     }
@@ -16431,6 +16717,7 @@ export const listDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16460,6 +16747,7 @@ export const listDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16489,6 +16777,7 @@ export const listDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16535,6 +16824,7 @@ export const listDevice = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16617,6 +16907,7 @@ export const listDeviceIfExists = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16646,6 +16937,7 @@ export const listDeviceIfExists = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16675,6 +16967,7 @@ export const listDeviceIfExists = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16721,6 +17014,7 @@ export const listDeviceIfExists = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16782,6 +17076,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16802,6 +17097,7 @@ export const listEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -16906,6 +17202,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16935,6 +17232,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -16964,6 +17262,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17010,6 +17309,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17046,6 +17346,7 @@ export const listEvent = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -17054,7 +17355,6 @@ export const listEvent = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -17083,6 +17383,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17147,6 +17448,7 @@ export const listEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17167,6 +17469,7 @@ export const listEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -17262,6 +17565,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17282,6 +17586,7 @@ export const listEventActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -17386,6 +17691,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17415,6 +17721,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17444,6 +17751,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17490,6 +17798,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17526,6 +17835,7 @@ export const listEventActive = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -17534,7 +17844,6 @@ export const listEventActive = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -17563,6 +17872,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17627,6 +17937,7 @@ export const listEventActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17647,6 +17958,7 @@ export const listEventActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -17742,6 +18054,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17762,6 +18075,7 @@ export const listEventByLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -17866,6 +18180,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17895,6 +18210,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17924,6 +18240,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -17970,6 +18287,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18006,6 +18324,7 @@ export const listEventByLocation = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -18014,7 +18333,6 @@ export const listEventByLocation = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -18043,6 +18361,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18107,6 +18426,7 @@ export const listEventByLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18127,6 +18447,7 @@ export const listEventByLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -18221,6 +18542,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18241,6 +18563,7 @@ export const listEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -18346,6 +18669,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18375,6 +18699,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18404,6 +18729,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18450,6 +18776,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18470,6 +18797,7 @@ export const listEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -18492,6 +18820,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18534,7 +18863,6 @@ export const listEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -18578,6 +18906,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18598,6 +18927,7 @@ export const listEventExpress = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -18649,6 +18979,7 @@ export const listEventExpress = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -18671,6 +19002,7 @@ export const listEventExpress = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18713,7 +19045,6 @@ export const listEventExpress = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -18766,6 +19097,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18786,6 +19118,7 @@ export const listEventHistory = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -18890,6 +19223,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18919,6 +19253,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18948,6 +19283,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -18994,6 +19330,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19030,6 +19367,7 @@ export const listEventHistory = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -19038,7 +19376,6 @@ export const listEventHistory = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -19067,6 +19404,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19131,6 +19469,7 @@ export const listEventHistory = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19151,6 +19490,7 @@ export const listEventHistory = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -19246,6 +19586,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19266,6 +19607,7 @@ export const listEventsToday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -19370,6 +19712,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19399,6 +19742,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19428,6 +19772,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19474,6 +19819,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19510,6 +19856,7 @@ export const listEventsToday = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -19518,7 +19865,6 @@ export const listEventsToday = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -19547,6 +19893,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19611,6 +19958,7 @@ export const listEventsToday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19631,6 +19979,7 @@ export const listEventsToday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -19726,6 +20075,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19746,6 +20096,7 @@ export const listEventsTomorrow = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -19850,6 +20201,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19879,6 +20231,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19908,6 +20261,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19954,6 +20308,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -19990,6 +20345,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -19998,7 +20354,6 @@ export const listEventsTomorrow = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -20027,6 +20382,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20091,6 +20447,7 @@ export const listEventsTomorrow = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20111,6 +20468,7 @@ export const listEventsTomorrow = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -20206,6 +20564,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20226,6 +20585,7 @@ export const listEventsYesterday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -20330,6 +20690,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20359,6 +20720,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20388,6 +20750,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20434,6 +20797,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20470,6 +20834,7 @@ export const listEventsYesterday = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -20478,7 +20843,6 @@ export const listEventsYesterday = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -20507,6 +20871,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20571,6 +20936,7 @@ export const listEventsYesterday = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20591,6 +20957,7 @@ export const listEventsYesterday = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -20711,6 +21078,7 @@ export const listGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20740,6 +21108,7 @@ export const listGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20769,6 +21138,7 @@ export const listGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20815,6 +21185,7 @@ export const listGroupWorker = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20892,6 +21263,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20921,6 +21293,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20950,6 +21323,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -20996,6 +21370,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21074,6 +21449,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21141,6 +21517,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21170,6 +21547,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21199,6 +21577,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21245,6 +21624,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21294,6 +21674,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21314,6 +21695,7 @@ export const listHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -21403,6 +21785,7 @@ export const listHistoryUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21423,6 +21806,7 @@ export const listHistoryUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -21502,6 +21886,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21561,6 +21946,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21577,6 +21963,7 @@ export const listInvitationEvent = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -21599,6 +21986,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21641,7 +22029,6 @@ export const listInvitationEvent = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -21689,6 +22076,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21709,6 +22097,7 @@ export const listInvitationEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -21813,6 +22202,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21842,6 +22232,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21871,6 +22262,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21917,6 +22309,7 @@ export const listInvitationEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -21961,6 +22354,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22020,6 +22414,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22036,6 +22431,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -22058,6 +22454,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22100,7 +22497,6 @@ export const listInvitationEventByEvent = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -22148,6 +22544,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22168,6 +22565,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -22272,6 +22670,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22301,6 +22700,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22330,6 +22730,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22376,6 +22777,7 @@ export const listInvitationEventByEvent = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22437,6 +22839,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22504,6 +22907,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22533,6 +22937,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22562,6 +22967,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22608,6 +23014,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22675,6 +23082,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22704,6 +23112,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22733,6 +23142,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22779,6 +23189,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22830,6 +23241,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22850,6 +23262,7 @@ export const listLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -22935,6 +23348,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -22955,6 +23369,7 @@ export const listLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -23040,6 +23455,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23060,6 +23476,7 @@ export const listLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -23173,6 +23590,7 @@ export const listLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23193,6 +23611,7 @@ export const listLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -23287,6 +23706,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23354,6 +23774,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23383,6 +23804,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23412,6 +23834,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23458,6 +23881,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23525,6 +23949,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23554,6 +23979,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23583,6 +24009,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23629,6 +24056,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23680,6 +24108,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23700,6 +24129,7 @@ export const listLocationActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -23785,6 +24215,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23805,6 +24236,7 @@ export const listLocationActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -23890,6 +24322,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -23910,6 +24343,7 @@ export const listLocationActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -24023,6 +24457,7 @@ export const listLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24043,6 +24478,7 @@ export const listLocationActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -24209,6 +24645,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24229,6 +24666,7 @@ export const listLocationAttempt = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -24281,6 +24719,7 @@ export const listLocationAttempt = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -24303,6 +24742,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24345,7 +24785,6 @@ export const listLocationAttempt = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -24406,6 +24845,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24435,6 +24875,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24464,6 +24905,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24510,6 +24952,7 @@ export const listLocationAttempt = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24535,6 +24978,7 @@ export const listLocationEntries = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -24557,6 +25001,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24599,7 +25044,6 @@ export const listLocationEntries = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -24660,6 +25104,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24689,6 +25134,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24718,6 +25164,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24764,6 +25211,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24798,6 +25246,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24857,6 +25306,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24909,6 +25359,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -24929,6 +25380,7 @@ export const listLocationEntries = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -25088,6 +25540,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25108,6 +25561,7 @@ export const listLocationEntries = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -25217,6 +25671,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25249,6 +25704,7 @@ export const listLocationEntries = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -25257,7 +25713,6 @@ export const listLocationEntries = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -25282,6 +25737,7 @@ export const listLocationEntries = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25296,6 +25752,7 @@ export const listLocationEntries = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -25304,7 +25761,6 @@ export const listLocationEntries = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -25325,6 +25781,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -25347,6 +25804,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25389,7 +25847,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -25450,6 +25907,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25479,6 +25937,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25508,6 +25967,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25554,6 +26014,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25588,6 +26049,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25647,6 +26109,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25699,6 +26162,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25719,6 +26183,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -25878,6 +26343,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -25898,6 +26364,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -26007,6 +26474,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26039,6 +26507,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -26047,7 +26516,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -26072,6 +26540,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26086,6 +26555,7 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -26094,7 +26564,6 @@ export const listLocationEntriesExternal = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -26116,6 +26585,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -26124,7 +26594,6 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -26174,6 +26643,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26229,6 +26699,7 @@ export const listLocationEntriesPaginated = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26335,6 +26806,7 @@ export const listMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26364,6 +26836,7 @@ export const listMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26393,6 +26866,7 @@ export const listMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26439,6 +26913,7 @@ export const listMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26494,6 +26969,7 @@ export const listMasterLocation = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26514,6 +26990,7 @@ export const listMasterLocation = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -26626,6 +27103,7 @@ export const listMasterLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26655,6 +27133,7 @@ export const listMasterLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26684,6 +27163,7 @@ export const listMasterLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26730,6 +27210,7 @@ export const listMasterLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26785,6 +27266,7 @@ export const listMasterLocationActive = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26805,6 +27287,7 @@ export const listMasterLocationActive = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{
@@ -26879,6 +27362,17 @@ export const listRisk = /* GraphQL */`
         try
         ban
         actions
+    }
+}
+`;
+export const listRiskLayers = /* GraphQL */` 
+ query listRiskLayers{
+    listRiskLayers{
+        _id
+        layer
+        tolerance
+        createdAt
+        updatedAt
     }
 }
 `;
@@ -26966,6 +27460,7 @@ export const listUser = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -26986,6 +27481,7 @@ export const listUser = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

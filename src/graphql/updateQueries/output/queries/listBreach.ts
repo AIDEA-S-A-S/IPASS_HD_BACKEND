@@ -60,6 +60,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -89,6 +90,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -118,6 +120,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -164,6 +167,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -253,6 +257,7 @@ export const listBreach = /* GraphQL */`
             firstName
             lastName
             email
+            indicativo
             phone
             nickname
             host{
@@ -275,6 +280,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -317,7 +323,6 @@ export const listBreach = /* GraphQL */`
             createdAt
             updatedAt
             empresa
-            indicativo
             DPI
             verificationRegistro
         }
@@ -360,6 +365,7 @@ export const listBreach = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -380,6 +386,7 @@ export const listBreach = /* GraphQL */`
             document
             typeDocument
             code
+            indicativo
             phone
             QR
             group{

@@ -46,6 +46,7 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 firstName
                 lastName
                 email
+                indicativo
                 phone
                 nickname
                 verified
@@ -54,7 +55,6 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 createdAt
                 updatedAt
                 empresa
-                indicativo
                 DPI
                 verificationRegistro
             }
@@ -78,6 +78,7 @@ export const listBreachLast2DaysApp = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator

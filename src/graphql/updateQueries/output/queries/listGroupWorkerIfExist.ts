@@ -60,6 +60,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -89,6 +90,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -118,6 +120,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
@@ -164,6 +167,7 @@ export const listGroupWorkerIfExist = /* GraphQL */`
                 document
                 typeDocument
                 code
+                indicativo
                 phone
                 QR
                 canUseAuthenticator
